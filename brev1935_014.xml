@@ -25,8 +25,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     
     <text>
-        <body> <p> </p>
-            <!--We will put our poem here -->
+        <body> 
+            <p> 
+            Fru Flory Gate
+            Orrefors
+            Suède 
+            
+            11.4.35
+            
+            En mänska, vars hand-
+            stil vi så ofta sett på adressen till 
+            Elin, måste vara särdeles och 
+            lite förmer - henne måste vi 
+            andra vänner i Elin också få lov 
+            att sympatifullt hälsa denna 
+            sista dag det förunnas oss att ha 
+            henne kvar. Kom hit med hen-
+            ne om två år - om världen ännu 
+            står då. Och tills dess lev väl - Amelie P.B. 
+            Du är adopterad på 
+            din handstil - voilá. Skriv till: Albergo
+            Sta Chiara, Roma. Elin.
+            
+            X X X
+            </p>
         </body>
     </text>
 </TEI>

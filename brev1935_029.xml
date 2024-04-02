@@ -25,8 +25,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     
     <text>
-        <body> <p> </p>
-            <!--We will put our poem here -->
+        <body> 
+            <p> 
+                SIDA 1
+                
+                Tidevarvet ⅞ 1935 Till Orrefors
+                
+                Kära du! Tack för brev och fotos.
+                
+                Jag längtar till Sandö härifrån då vi nu lever 
+                i en vådlig hets med befolknings-
+                kris och den här nya fredsrörelsen 
+                som tar tid och fart.
+                
+                Nu funderar de på att sätta mötet 
+                i Sthlm just då vi skulle vara i Genève 
+                så vi vet minsann ej hur det ska 
+                gå för dig och mig med en resa. Men 
+                vi får ju se. Detta är ändå märkligt 
+                med det svar vi fått. Jag har massor 
+                att berätta om kommittéarbetet. 
+                Jag blir nog kvar här till början på 
+                nästa vecka. Bor hos Andéns. Undrar 
+                var du är men skickar det till Orrefors 
+                ändå. 
+                
+                Elias Svedberg sa att blått glas var 
+                högmodernt nu och allt gammalt 
+                säljes dyrt så han tyckte det var 
+                
+                SIDA 2
+                
+                bra ni skulle börja.
+                Ville ha gammallila också!
+                
+                Hej!
+                
+                Elin 
+            </p>
         </body>
     </text>
 </TEI>

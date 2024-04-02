@@ -25,8 +25,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     
     <text>
-        <body> <p> </p>
-            <!--We will put our poem here -->
+        <body> 
+            <p> 
+                POSTKARTE
+                
+                Fru Flory Gate
+                Götabergsgat. 1
+                Göteborg
+                
+                VÖLKERKUNDE-MUSEUM, BERLIN
+                
+                B-G 1/10
+                
+                Kära du! 
+                Nu är det äntligen klart med kungar
+                na, gud ske lov, efter oänd-
+                liga telefoneringar. 
+                
+                Igen fr. UD. Till Geneva
+                idag. Hartmannsdorf snäll
+                x(och?) x(glad?) att kunna vara det.
+                Jag sitter med mitt manus som
+                B:s vill se på.
+                Om inte annat så kan Mün-
+                chen räddat kungarna. Att
+                en liten stat skulle ge Ch. freds-
+                priset är outsägligt ironiskt.
+                Kom snart. Elin
+                
+                Mutter und Kind, Stein 
+                Alt-Mexico (Guerrero)
+            </p>
         </body>
     </text>
 </TEI>
