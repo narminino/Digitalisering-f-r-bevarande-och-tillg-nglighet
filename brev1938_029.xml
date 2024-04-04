@@ -9,12 +9,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <!-- you'll need to add a title here --> </title>
+                <title>Vykort från Elin Wägner till Flory Gate 1938-10-01</title>
             </titleStmt>
             <publicationStmt>
-                <p>
-                    <!-- you'll need to add a paragraph here --> </p>
+                <publisher>KvinnSam, Göteborgs universitetsbibliotek</publisher>
             </publicationStmt>
             <sourceDesc>
                 <p>
