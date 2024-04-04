@@ -34,9 +34,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <placeName>Tidevarvet</placeName>
                         <placeName>Till Orrefors</placeName>
                         </dateline>
+                        <salute>Kära du!</salute> 
                      </opener>
                 
-                <salute>Kära du!</salute> <p>Tack för brev och fotos.</p><lb/>
+                <p>Tack för brev och fotos.</p><lb/>
                 
                 <p>Jag längtar till Sandö härifrån då vi nu lever<lb/>
                 i en vådlig hets med befolknings-<lb/>
@@ -63,10 +64,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 bra ni skulle börja.<lb/>
                 Ville ha gammallila också!<lb/>
                 </p>
-                
+                <closer>
                 <salute> Hej! </salute>
-                
                 <signed> Elin </signed>
+                </closer>
             </div>
         </body>
     </text>
