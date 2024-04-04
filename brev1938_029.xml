@@ -24,38 +24,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
     </teiHeader>
     
-    <text>
+    <text type="letter">
         <body> 
-            <p> 
-                POSTKARTE
+            <div type="adress">
+                <p><fw type="preprinted">POSTKARTE</fw></p>
                 
-                Fru Flory Gate
-                Götabergsgat. 1
-                Göteborg
+                <p><address>
+                    <addrLine>Fru Flory Gate</addrLine>
+                    <addrLine>Götabergsgat. 1</addrLine>
+                    <addrLine>Göteborg</addrLine>
+                </address></p>
                 
-                VÖLKERKUNDE-MUSEUM, BERLIN
+                <p><fw type="preprinted">VÖLKERKUNDE-MUSEUM, BERLIN</fw></p>
                 
-                B-G 1/10
+                <p><fw type="preprinted">Mutter und Kind, Stein</fw> 
+                   <fw type="preprinted">Alt-Mexico (Guerrero)</fw></p>
+            </div>
+            
+            <div type="letter"> 
+              
+                   <opener>
+                      <dateline>
+                         <placeName>B-G</placeName> 
+                         <date when="1938-10-01">1/10 38</date>
+                      </dateline>
+                      <salute>Kära du!</salute> 
+                   </opener>
                 
-                Kära du! 
-                Nu är det äntligen klart med kungar
-                na, gud ske lov, efter oänd-
-                liga telefoneringar. 
+                <p>Nu är det äntligen klart med kungar<lb/>
+                   na, gud ske lov, efter oänd-<lb/>
+                   liga telefoneringar.</p>
                 
-                Igen fr. UD. Till Geneva
-                idag. Hartmannsdorf snäll
-                och glad att kunna vara det.
-                Jag sitter med mitt manus som
-                B:s vill se på.
-                Om inte annat så kan Mün-
-                chen räddat kungarna. Att
-                en liten stat skulle ge Ch. freds-
-                priset är outsägligt ironiskt.
-                Kom snart. Elin
+                <p>Igen fr. UD. Till Geneva<lb/>
+                    idag. Hartmannsdorf snäll<lb/>
+                    och glad att kunna vara det.<lb/>
+                    Jag sitter med mitt manus som<lb/>
+                    B:s vill se på.<lb/>
+                    Om inte annat så kan Mün-<lb/>
+                    chen räddat kungarna. Att<lb/>
+                    en liten stat skulle ge Ch. freds-<lb/>
+                    priset är outsägligt ironiskt.</p>
                 
-                Mutter und Kind, Stein 
-                Alt-Mexico (Guerrero)
-            </p>
+                <closer>
+                    <salute>Kom snart.</salute>
+                    <signed>Elin</signed>
+                </closer>
+            </div>
         </body>
     </text>
 </TEI>
