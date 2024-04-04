@@ -27,18 +27,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text type="letter">
         <body> 
             <div type="adress">
-                <p><fw type="preprinted">POSTKARTE</fw></p>
+                <fw type="preprinted">POSTKARTE</fw>
+                <p><stamp>Svenskt frimärke.</stamp></p>
+                <p><stamp>Svensk poststämpel.</stamp></p>
                 
                 <p><address>
                     <addrLine>Fru Flory Gate</addrLine>
                     <addrLine>Götabergsgat. 1</addrLine>
                     <addrLine>Göteborg</addrLine>
-                </address></p>
+                   </address></p>
                 
-                <p><fw type="preprinted">VÖLKERKUNDE-MUSEUM, BERLIN</fw></p>
+                <fw type="preprinted">VÖLKERKUNDE-MUSEUM, BERLIN</fw>
                 
-                <p><fw type="preprinted">Mutter und Kind, Stein</fw> 
-                   <fw type="preprinted">Alt-Mexico (Guerrero)</fw></p>
+                <fw type="preprinted">Mutter und Kind, Stein</fw> 
+                <fw type="preprinted">Alt-Mexico (Guerrero)</fw>
             </div>
             
             <div type="letter"> 
