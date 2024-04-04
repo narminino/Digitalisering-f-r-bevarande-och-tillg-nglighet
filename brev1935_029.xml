@@ -24,45 +24,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
     </teiHeader>
     
-    <text>
-        <body> 
-            <p> 
-                SIDA 1
+    <text type="letter">
+        <body>
+            <div>
+            <pb n="1"/>
+                <opener>
+                    <dateline rend="left"> 
+                        <placeName>Tidevarvet</placeName>
+                        <date when="1935-08-07">7/8 1935</date>
+                        <placeName>Till Orrefors</placeName>
+                        </dateline>
+                        <salute>Kära du!</salute> 
+                     </opener>
                 
-                Tidevarvet ⅞ 1935 Till Orrefors
+                <p>Tack för brev och fotos.</p><lb/>
                 
-                Kära du! Tack för brev och fotos.
+                <p>Jag längtar till Sandö härifrån då vi nu lever<lb/>
+                i en vådlig hets med befolknings-<lb/>
+                kris och den här nya fredsrörelsen <lb/>
+                som tar tid och fart.<lb/></p>
                 
-                Jag längtar till Sandö härifrån då vi nu lever 
-                i en vådlig hets med befolknings-
-                kris och den här nya fredsrörelsen 
-                som tar tid och fart.
+                <p>Nu funderar de på att sätta mötet<lb/>
+                i Sthlm just då vi skulle vara i Genève<lb/>
+                så vi vet minsann ej hur det ska <lb/>
+                gå för dig och mig med en resa. Men <lb/>
+                vi får ju se. Detta är ändå märkligt <lb/>
+                med det svar vi fått. Jag har massor <lb/>
+                att berätta om kommittéarbetet. <lb/>
+                Jag blir nog kvar här till början på <lb/>
+                nästa vecka. Bor hos <persName>Andéns</persName>. Undrar <lb/>
+                var du är men skickar det till Orrefors <lb/>
+                ändå. <lb/></p>
                 
-                Nu funderar de på att sätta mötet 
-                i Sthlm just då vi skulle vara i Genève 
-                så vi vet minsann ej hur det ska 
-                gå för dig och mig med en resa. Men 
-                vi får ju se. Detta är ändå märkligt 
-                med det svar vi fått. Jag har massor 
-                att berätta om kommittéarbetet. 
-                Jag blir nog kvar här till början på 
-                nästa vecka. Bor hos Andéns. Undrar 
-                var du är men skickar det till Orrefors 
-                ändå. 
+                <p><persName>Elias Svedberg</persName> sa att blått glas var <lb/>
+                högmodernt nu och allt gammalt <lb/>
+                säljes dyrt så han tyckte det var <lb/>
+                <pb n="2"/> 
                 
-                Elias Svedberg sa att blått glas var 
-                högmodernt nu och allt gammalt 
-                säljes dyrt så han tyckte det var 
-                
-                SIDA 2
-                
-                bra ni skulle börja.
-                Ville ha gammallila också!
-                
-                Hej!
-                
-                Elin 
-            </p>
+                bra ni skulle börja.<lb/>
+                Ville ha gammallila också!<lb/>
+                </p>
+                <closer>
+                <salute> Hej! </salute>
+                <signed> Elin </signed>
+                </closer>
+            </div>
         </body>
     </text>
 </TEI>
