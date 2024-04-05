@@ -21,7 +21,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <!-- Här skulle vi kunna ha ett editionStmt som innehåller mer detaljerad information om vår transkription,
                 ex vilket år den genomfördes och mer exakt vad vi har gjort (dvs transkriberat - går också att lägga
-                in att Dagmar har korrekturläst etc). /Ellen--> 
+                in vem som har korrekturläst etc). /Ellen--> 
             <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
             <publicationStmt>
                 <authority>
@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </publicationStmt>
             <!-- Vi har också möjligheten att göra ett notesStmt där vi kan skriva lite vad vi vill - här skulle vi t ex 
             också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
-            projektet och syftet med transkriptionen, metoder vi har använt etc. --> 
+            projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen --> 
             <sourceDesc>
                 <!-- Det finns olika sätt att beskriva källmaterialet på - Mikaels exempel använder biblStruct, men jag 
                 tyckte att msDesc kändes rimligare eftersom att det inte handlar om ett publicerat verk. Har ändå sparat
