@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <opener>
                     <dateline>
                         <date when="1935-04-11">11.4.35</date>
+                        <!-- OBS oklarhet kring datumet -->
                     </dateline>
                 </opener>
                   
@@ -55,13 +56,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             sista dag det förunnas oss att ha<lb/>  
             henne kvar. Kom hit med hen-<lb/> 
             ne om två år - om världen ännu<lb/>  
-            står då.</p> 
+            står då.</p>  
             
             <closer>
                 <salute>Och tills dess lev väl - </salute>  
                 <signed>Amelie P.B.</signed>
             </closer>
-             
+                
+           <!--Här nedan blir det ett felmeddelande troligtvis pga p efter closer. Hur hantera att det är flera signaturer?-->  
             <p>    
             Du är adopterad på<lb/>  
             din handstil - voilà. Skriv till: Albergo<lb/> 
@@ -72,7 +74,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </closer>
                 
             <closer> 
-                 <signed>XXX</signed>
+                <signed>XXX</signed>
+                <!--Met. Marcello Bettly? Hur hantera? Gap? -->    
             </closer>
            
             </div> 
