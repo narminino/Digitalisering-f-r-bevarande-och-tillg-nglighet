@@ -36,13 +36,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <addrLine>Orrefors</addrLine>
                     <addrLine>Suède</addrLine>
                 </address></p>
-                
             </div>
             
             <div type="letter">
+                
+                <opener>
+                    <dateline>
+                        <date when="1935-04-11">11.4.35</date>
+                    </dateline>
+                </opener>
+                  
             <p>   
-            11.4.35
-            
             En mänska, vars hand-
             stil vi så ofta sett på adressen till 
             Elin, måste vara särdeles och 
