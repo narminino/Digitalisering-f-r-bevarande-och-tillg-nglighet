@@ -24,13 +24,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
     </teiHeader>
     
-    <text>
+    <text type="letter">
         <body> 
-            <p> 
-            Fru Flory Gate
-            Orrefors
-            Suède 
+            <div type="adress">
+                <p><stamp>Italienskt frimärke.</stamp></p>
+                <p><stamp>Italiensk poststämpel.</stamp></p>
+                <p><stamp>Italiensk poststämpel.</stamp></p>
+                
+                <p><address>
+                    <addrLine>Fru Flory Gate</addrLine>
+                    <addrLine>Orrefors</addrLine>
+                    <addrLine>Suède</addrLine>
+                </address></p>
+                
+            </div>
             
+            <div type="letter">
+            <p>   
             11.4.35
             
             En mänska, vars hand-
@@ -49,6 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             X X X
             </p>
+            </div> 
         </body>
     </text>
 </TEI>
