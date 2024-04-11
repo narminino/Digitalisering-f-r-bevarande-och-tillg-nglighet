@@ -62,8 +62,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <salute>Och tills dess lev väl - </salute>  
                 <signed>Amelie P.B.</signed>
             </closer>
+            </div> 
                 
-           <!--Här nedan blir det ett felmeddelande troligtvis pga p efter closer. Hur hantera att det är flera signaturer?-->  
+            <div type="letter">
             <p>    
             Du är adopterad på<lb/>  
             din handstil - voilà. Skriv till: Albergo<lb/> 
@@ -71,14 +72,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
             <closer> 
                 <signed>Elin</signed>
-            </closer>
-                
-            <closer> 
-                <signed> 
+            </closer>  
+            </div> 
+            
+            <div type="unclear">
                     <gap reason="illegible"/>
-                </signed>   
-            </closer>
-           
             </div> 
         </body>
     </text>
