@@ -8,11 +8,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     
     <teiHeader>
         <fileDesc>
-            <!-- Tolkar beskrivningen av fileDesc som att innehållet här generellt ska handla om vår "digitala fil" 
-            och att endast det som står inom sourceDesc handlar om källmaterialet /Ellen -->
             <titleStmt>
                 <title>Transkription av vykort från Elin Wägner till Flory Gate 1938-10-01</title>
                 <author>Elin Wägner (1882-1949)</author>
+                <!-- Ska vi ange Vanni som en någon slags creator här iom att han tagit fotografiet? Vilket element isf? /Moa--> 
                 
                 <editor>Narmin Abdullayeva</editor>
                 <editor>Moa Benjaminsson Randén</editor>
@@ -44,25 +43,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
             projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen --> 
             <sourceDesc>
-                <!-- Det finns olika sätt att beskriva källmaterialet på - Mikaels exempel använder biblStruct, men jag 
-                tyckte att msDesc kändes rimligare eftersom att det inte handlar om ett publicerat verk. Har ändå sparat
-                biblStruct-koden som en kommentar nedan så behöver vi inte göra om den ifall vi ändrar oss. /Ellen -->
-                <!-- <biblStruct>
-                    <analytic>
-                        <title>Vykort från Elin Wägner till Flory Gate 1938-10-01</title>
-                        <author>Elin Wägner</author>
-                        <date when="1938-10-01">10 oktober 1938</date>
-                    </analytic>
-                    <monogr>
-                        <title>Elin Wägners samling</title>
-                        <ref target="http://urn.kb.se/resolve?urn=urn:nbn:se:alvin:portal:record-114992"
-                            >ELin Wägners samling, A 48a</ref>
-                        <imprint>
-                            <publisher>KvinnSam</publisher>
-                            <pubPlace>Humanistiska biblioteket, Renströmsgatan 4, 412 55 Göteborg</pubPlace>
-                        </imprint>
-                    </monogr>
-                    </biblStruct> -->
                 <msDesc>
                     <msIdentifier>
                         <country>Sverige</country>
@@ -82,16 +62,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                         <msItem>
                             <author>Elin Wägner</author>
-                            <title>Vykort från Elin Wägner till Flory Gate 1938-10-01</title>
+                            <title>Brev från Elin Wägner till Flory Gate 1938-03-25</title>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
-                            <p>Ett vykort skickat från Elin Wägner till Flory Gate.</p>
-                            <p>Texten är handskriven av Elin Wägner.</p> 
-                            <p>Vykortet föreställer en staty som fanns hos
-                                Völkerkunde-Museum i Berlin (nuvarande Etnologisches Museum).</p>
-                            <p>Vykortet har postats från Sverige.</p>
+                            <p>Ett maskinskrivet brev skickat från Elin Wägner till Flory Gate.</p>
+                            <p>Texten är maskinskriven och signerad av Elin Wägner.</p> 
+                            <p>Fastklistrat nedtill på brevets andra sida finns ett fotografi föreställande Elin Wägner sittandes i en soffa.</p>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
@@ -100,11 +78,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Universitetsbibliotek.</bibl> 
             </sourceDesc> 
         </fileDesc>
+        
+        <!-- Vi diskuterade under mötet 11/4 huruvida keywords ur ett kontrollerat vokuabulär kan vara av intresse att få med i metadatan.
+            Så har de gjort i exemplet från KB (se Anne-Maries brev i högskolans github). Kvinnsam har ett eget som de brukar använda sig av,
+            så det hade kanske varit kul att inkludera med tanke på länkbarhet etcetc. Här gjorde jag ett försök utifrån
+            KB-exemplet och innehållet i 38.008. /Moa -->
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                    <list>
+                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">handskrifter</ref></item>
+                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">författare</ref></item>
+                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">brev</ref></item>
+                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">vänskap</ref></item>
+                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">andra världskriget</ref></item>
+                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">pacifism</ref></item>
+                    </list>
+                </keywords>
+             </textClass>
+        </profileDesc>
     </teiHeader>
     
 <text type="letter">
         <body> 
             <div>
+                
+                <pb n="1"/> 
+                
                 <opener>
                 <dateline rend="right">
                     <placeName>Bergslund</placeName>.
@@ -153,6 +153,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     tar saker för givna inte minsta i fråga om religionen. Det är nog inte<lb/>
                     fastslaget att fruktans tid kom före förhoppningens och bönens, denna</p>
                 
+                <pb n="2"/>
+                
                 <p><persName>Harrison</persName> liksom <persName>Briffault</persName> och även
                     <persName>Emilia</persName> tror jag menar att det<lb/>
                       inte var fruktan som gav upphov åt religionen utan den var en förbunden<lb/>
@@ -163,7 +165,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       så att jag plötsligt hoppade på Sasson utan det att vad han sa passade<lb/>
                     in i vad jag läst från  <persName>Bachofen</persName> och 
                     <persName>Briffault</persName> till <persName>Harrison</persName> och
-                    <persName>MalinovMalinov-<lb/>ski.</persName>
+                    <persName>Malinov-<lb/>ski.</persName>
                       </p>
                 
                 <p>Vi har haft så vackra dagar så till och med Ester Lundberg velat<lb/>
@@ -197,6 +199,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         Din Elin
                     </signed>
                 </closer>
+                
+                <!-- Här har jag beskivit bilden som är medskickad i brevet. Följde instruktionerna under "example graphic",
+                    då jag tror att det passar bäst in som element. Kommer korregeras med en korrekt länk till bilden
+                    när en sådan finns. Storlek i px kommer också korrigeras. /Moa-->   
+                <figure>
+                    <head>Fotografi föreställande Elin Wägner</head>
+                    <graphic height="600px" width="600px"
+                        url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
+                    <figDesc>Ett svartvitt fotografi föreställande Elin Wägner sittandes i en soffa. På sida 2 i brevet
+                        anges <persName>Vanni</persName> vara fotografen. </figDesc>
+                </figure>
+                
             </div>
         </body>
     </text>
