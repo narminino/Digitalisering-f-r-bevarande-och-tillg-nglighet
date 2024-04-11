@@ -74,8 +74,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </closer>
                 
             <closer> 
-                <signed>XXX</signed>
-                <!--Met. Marcello Bettly? Hur hantera? Gap? -->    
+                <signed> 
+                    <gap reason="illegible"/>
+                </signed>   
             </closer>
            
             </div> 
