@@ -74,6 +74,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Universitetsbibliotek.</bibl> 
             </sourceDesc> 
         </fileDesc>
+        <encodingDesc>
+            <projectDesc> 
+                <p>Här beskrivs projektets syfte, anledningen till att en fil har tei-kodats, 
+                relevant information om processen för insamling av material eller filens tillkomst.</p> 
+            </projectDesc>
+            <editorialDecl>
+                <p>Här kan man beskriva korrigeringar som har gjorts i texten, hur man tänkt med 
+                stavning/stavfel etc. Finns element inom detta element att använda innan man beskriver detta.
+                </p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>Här beskrivs metoder och logik bakom urval av texter, eller delar av texter, som
+            har inkluderats i källan</p>
+            </samplingDecl>
+            <editorialDecl>
+                <p>Detaljer om principer och riktlinjer som har använts vid textkodningen.</p>
+            </editorialDecl>
+            <!-- Elementet <tagsDecl> kan användas för annotering/taggningar av text. 
+            Fler element finns som rör referenser, klassifikation, geografiska koordinater, 
+            mätenheter, schema-specifikationer och schema-referenser. -->
+        </encodingDesc>
     </teiHeader>
     
     <text type="letter">
