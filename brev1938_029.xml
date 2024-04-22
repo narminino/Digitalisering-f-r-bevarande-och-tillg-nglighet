@@ -66,13 +66,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                         <country>Sverige</country>
-                        <settlement>Göteborg</settlement>
-                        <repository>KvinnSam
-                         <address><addrLine>Humanistiska biblioteket</addrLine>
-                                  <addrLine>Renströmsgatan 4</addrLine>
-                                  <addrLine>412 55 Göteborg</addrLine>
-                         </address>
-                        </repository>
+                        <settlement>Göteborg
+                            <address><addrLine>Humanistiska biblioteket</addrLine>
+                                <addrLine>Renströmsgatan 4</addrLine>
+                                <addrLine>412 55 Göteborg</addrLine>
+                            </address>
+                        </settlement>
+                        <repository>KvinnSam</repository>
                         <collection>Elin Wägners samling</collection>
                         <idno>A 48a</idno>
                         <idno type="URI">http://urn.kb.se/resolve?urn=urn:nbn:se:alvin:portal:record-114992</idno>
