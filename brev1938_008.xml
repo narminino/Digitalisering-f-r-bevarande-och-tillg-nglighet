@@ -85,15 +85,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             KB-exemplet och innehållet i 38.008. /Moa -->
         <profileDesc>
             <textClass>
+                <keywords scheme="https://id.kb.se/term/sao">
+                    <term><ref target="https://id.kb.se/term/sao/Brittiska%20ockupationen%20av%20Indien%201765-1947">Brittiska ockupationen av Indien 1765-1947</ref></term>
+                </keywords>
                 <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
-                    <list>
-                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">handskrifter</ref></item>
-                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">författare</ref></item>
-                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">brev</ref></item>
-                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">vänskap</ref></item>
-                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">andra världskriget</ref></item>
-                        <item><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">pacifism</ref></item>
-                    </list>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">handskrifter</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">författare</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">brev</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">andra världskriget</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">pacifism</ref></term>
                 </keywords>
              </textClass>
         </profileDesc>
