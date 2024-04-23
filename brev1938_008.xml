@@ -95,6 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">andra världskriget</ref></term>
                         <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
                         <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">pacifism</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">fredsrörelsen</ref></term>
                 </keywords>
              </textClass>
         </profileDesc>

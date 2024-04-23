@@ -22,6 +22,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </p>
             </sourceDesc>
         </fileDesc>
+        <!-- Nedan lade jag till keywords för att beskiva innehållet i vykortet. Kan utökas allt eftersom om vi hittar fler förslag. /Moa 23/4 -->
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://id.kb.se/term/sao">
+                    <term><ref target="https://id.kb.se/term/sao/Italien--Rom">Italien--Rom</ref></term>
+                </keywords>
+                <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">handskrifter</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">författare</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">brev</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
     </teiHeader>
     
     <text type="letter">
