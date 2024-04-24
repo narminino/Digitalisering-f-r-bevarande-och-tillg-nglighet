@@ -9,7 +9,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Transkription av brev från <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> till <persName ref="https://libris.kb.se/7nkc8vg8573h1302#it">Flory Gate 1935-08-07</persName></title>
+                <title>Transkription av brev från <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> till <persName ref="https://libris.kb.se/7nkc8vg8573h1302#it">Flory Gate</persName>1935-08-07</title>
                 <author>Elin Wägner (1882-1949)</author>
                 
                 <editor>Narmin Abdullayeva</editor>
