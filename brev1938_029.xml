@@ -32,9 +32,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <addrLine>https://www.hb.se/</addrLine>
                     </address>
                 </authority>
-                <!-- Här tror jag att vi också kan använda elementen <date> för att markera datumet vårt projekt
-                        publiceras och <availablity> med ett <license>-element inuti om vi vill skydda transkriptionerna 
-                        med en Creative Commons-licens. /Ellen -->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
+                    </licence>
+                </availability>
+                <!-- Här tror jag att vi också kan använda elementet <date> för att markera datumet vårt projekt
+                        publiceras. /Ellen -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -138,7 +142,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 schema-referenser. -->
         </encodingDesc>
     </teiHeader>
-    
+   <!-- Här kommer vi addera elementet <facsimile></facsimile> med länkar till de färdiga bilderna av brevet
+       i enlighet med Wouts kod. -->
     <text type="letter">
         <body> 
             <div type="adress">
