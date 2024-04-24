@@ -30,11 +30,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <addrLine>Högskolan i Borås</addrLine>
                         <addrLine>501 90 Borås</addrLine>
                         <addrLine>https://www.hb.se/</addrLine>
-                        <!-- Här tror jag att vi också kan använda elementen <date> för att markera datumet vårt projekt
-                        publiceras och <availablity> med ett <license>-element inuti om vi vill skydda transkriptionerna 
-                        med en Creative Commons-licens. /Ellen -->
                     </address>
                 </authority>
+                <!-- Här tror jag att vi också kan använda elementen <date> för att markera datumet vårt projekt
+                        publiceras och <availablity> med ett <license>-element inuti om vi vill skydda transkriptionerna 
+                        med en Creative Commons-licens. /Ellen -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -59,14 +59,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <title>Vykort från Elin Wägner till Flory Gate 1938-10-01</title>
                         </msItem>
                     </msContents>
-                    <physDesc>
+                    <physDesc> 
+                        <p>Ett vykort skickat från Elin Wägner till Flory Gate.
+                           Vykortet föreställer en staty som fanns hos
+                           Völkerkunde-Museum i Berlin (nuvarande Etnologisches Museum).
+                           Vykortet har postats från Sverige.</p>
                         <objectDesc>
-                            <p>Ett vykort skickat från Elin Wägner till Flory Gate.</p>
-                            <p>Texten är handskriven av Elin Wägner.</p> 
-                            <p>Vykortet föreställer en staty som fanns hos
-                            Völkerkunde-Museum i Berlin (nuvarande Etnologisches Museum).</p>
-                            <p>Vykortet har postats från Sverige.</p>
+                            <supportDesc>
+                                <extent>
+                                <dimensions scope="all" type="leaf" unit="mm">
+                                    <height> </height>
+                                    <width> </width>
+                                    <!-- Var osäker på vad jag skulle lägga in för mått här - vad är höjden
+                                    och bredden på ett vykort osv. Men måtten är 150 mm x 105 mm. /Ellen-->
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                       
                         </objectDesc>
+                        <handDesc>
+                            <p>Texten är handskriven av Elin Wägner.</p>
+                        </handDesc>
                     </physDesc>
                 </msDesc>
                 <bibl>Elin Wägners samling består av material som mottogs av Kvinnohistoriska samlingarna 
@@ -98,24 +111,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <encodingDesc>
             <projectDesc> 
-                <p>Här beskrivs projektets syfte, anledningen till att en fil har tei-kodats, 
-                relevant information om processen för insamling av material eller filens tillkomst.</p> 
+                <p>Materialet har fotograferats, transkriberats, TEI-kodats och tillgängliggjorts digitalt som en del 
+                   av kursen "Digitalisering för bevarande och tillgänglighet" som gavs våren 2024 vid Högskolan i Borås 
+                   och är en del av Masterprogrammet i Biblioteks- och Informationsvetenskap. Ett övergripande syfte har 
+                   varit att belysa det rika kulturarvsmaterial som finns arkiverat hos minnesinstitutioner och
+                   hur digitalisering kan användas för att ge fler människor tillgång till det.</p> 
             </projectDesc>
             <editorialDecl>
-                <p>Här kan man beskriva korrigeringar som har gjorts i texten, hur man tänkt med 
-                stavning/stavfel etc. Finns element inom detta element att använda innan man beskriver detta.
+                <p>Materialet har transkriberats av Narmin Abdullayeva, Moa Benjaminsson Randén, Ellen Bågmark och
+                   Emmy Loft. Transkriptionerna har gjorts så nära originaltexten som möjligt. Inga korrigeringar av
+                   stavning eller moderniseringar av uttryck har gjorts. Sakkunniga från Elin Wägners stiftelse och 
+                   Kvinnsam har granskat så väl transkriptioner som innehåll och bidragit med information om exempelvis
+                   platser, personer och händelser som förekommer i materialet. 
+                   <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
+                       "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
+                       eller är det bara "slarvig handstil"? /Ellen
+                       Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
                 </p>
             </editorialDecl>
             <samplingDecl>
-                <p>Här beskrivs metoder och logik bakom urval av texter, eller delar av texter, som
-            har inkluderats i källan</p>
+                <p>Projektets urval bestod av två vykort och två brev skrivna av Elin Wägner till Flory Gate. Materialet 
+                   skiljer sig åt i så väl materialitet som innehåll. Utifrån det varierade urvalet ämnar projektet belysa 
+                   flera aspekter av Elin Wägner - hennes liv och gärning, hennes politiska engagemang och hennes 
+                   mångsidiga relation till Flory Gate.</p>
             </samplingDecl>
-            <editorialDecl>
-                <p>Detaljer om principer och riktlinjer som har använts vid textkodningen.</p>
-            </editorialDecl>
-            <!-- Elementet <tagsDecl> kan användas för annotering/taggningar av text. 
-            Fler element finns som rör referenser, klassifikation, geografiska koordinater, 
-            mätenheter, schema-specifikationer och schema-referenser. -->
+            <!-- Fler element kan användas inom detta element. Det finns element som rör annotering/taggningar av 
+                text, referenser, klassifikation, geografiska koordinater, mätenheter, schema-specifikationer och 
+                schema-referenser. -->
         </encodingDesc>
     </teiHeader>
     
