@@ -70,9 +70,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
+                                <measure unit="pages">2</measure>
                                 <dimensions scope="all" type="leaf" unit="mm">
-                                    <height> </height>
-                                    <width> </width>
+                                    <height>150mm</height>
+                                    <width>105mm</width>
                                     <!-- Var osäker på vad jag skulle lägga in för mått här - vad är höjden
                                     och bredden på ett vykort osv. Men måtten är 150 mm x 105 mm. /Ellen-->
                                 </dimensions>
@@ -195,4 +196,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </body>
     </text>
 </TEI>
-
