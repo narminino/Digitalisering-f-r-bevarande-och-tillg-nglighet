@@ -9,7 +9,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Transkription av vykort från Elin Wägner till Flory Gate 1938-10-01</title>
+                <title>Transkription av vykort från <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> till <persName ref="https://libris.kb.se/7nkc8vg8573h1302#it">Flory Gate</persName> 1938-10-01</title>
                 <author>Elin Wägner (1882-1949)</author>
                 
                 <editor>Narmin Abdullayeva</editor>
@@ -70,9 +70,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
+                                <measure unit="pages">2</measure>
                                 <dimensions scope="all" type="leaf" unit="mm">
-                                    <height> </height>
-                                    <width> </width>
+                                    <height>150mm</height>
+                                    <width>105mm</width>
                                     <!-- Var osäker på vad jag skulle lägga in för mått här - vad är höjden
                                     och bredden på ett vykort osv. Men måtten är 150 mm x 105 mm. /Ellen-->
                                 </dimensions>
@@ -195,4 +196,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </body>
     </text>
 </TEI>
-
