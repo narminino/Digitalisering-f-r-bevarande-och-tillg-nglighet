@@ -60,10 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </msItem>
                     </msContents>
                     <physDesc> 
-                        <p>Ett vykort skickat från Elin Wägner till Flory Gate.
-                           Vykortet föreställer en staty som fanns hos
-                           Völkerkunde-Museum i Berlin (nuvarande Etnologisches Museum).
-                           Vykortet har postats från Sverige.</p>
+                        <p>Ett vykort skickat från Elin Wägner till Flory Gate. Vykortet föreställer en staty som 
+                           fanns hos Völkerkunde-Museum i Berlin (nuvarande Etnologisches Museum). Vykortet har 
+                           postats från Sverige.</p>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
@@ -75,7 +74,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </dimensions>
                                 </extent>
                             </supportDesc>
-                       
                         </objectDesc>
                         <handDesc>
                             <p>Texten är handskriven av Elin Wägner.</p>
