@@ -58,19 +58,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <title>Vykort från Elin Wägner och Amelie Posse-Brazdova till Flory Gate 1938-10-01</title>
                         </msItem>
                     </msContents>
+                    
                     <physDesc>
+                        <p>Ett vykort skickat från Elin Wägner och Amelie Posse-Brazdova till Flory Gate.
+                            Texten är handskriven av Elin Wägner och Amelie Posse-Brazdova.
+                            <!-- Här bör det läggas in en beskrivning av vykortet och kvinnorna i fråga -->.
+                            Vykortet har postats från Italien.</p>
                         <objectDesc>
-                            <p>Ett vykort skickat från Elin Wägner och Amelie Posse-Brazdova till Flory Gate.</p>
-                            <p>Texten är handskriven av Elin Wägner och Amelie Posse-Brazdova.</p> 
-                            <p> <!-- Här bör det läggas in en beskrivning av vykortet och kvinnorna i fråga -->.</p>
-                            <p>Vykortet har postats från Italien.</p>
+                            <supportDesc>
+                                <extent>
+                                    <measure unit="pages">2</measure>
+                                    <dimensions scope="all" type="leaf" unit="mm">
+                                        <height>90mm</height>
+                                        <width>140mm</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
                         </objectDesc>
-                        <handDesc hands="3">
+                    <handDesc hands="3">
                             <handNote xml:id="EW">Skrivet av Elin Wägner</handNote>
                             <handNote xml:id="APB">Skrivet av Amelie Posse-Brazdova </handNote>
                             <handNote xml:id="Unknown"> Skrivet av okänd</handNote>
-                        </handDesc>
+                    </handDesc>
                     </physDesc>
+                    
                 </msDesc>
                 <bibl>Elin Wägners samling består av material som mottogs av Kvinnohistoriska samlingarna 
                     år 1980-1981. Materialet finns arkiverat hos KvinnSam som är en del av Göteborgs 
@@ -112,8 +123,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                 <opener>
                     <dateline>
-                        <date when="1935-04-11">11.4.35</date>
-                        <!-- OBS oklarhet kring datumet -->
+                        <date when="1935-04-11">11.4.35</date> 
                     </dateline>
                 </opener>
                   
