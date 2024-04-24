@@ -9,36 +9,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Transkription av vykort från Elin Wägner till Flory Gate 1938-10-01</title>
+                <title>Transkription av maskinskrivet brev från Elin Wägner till Flory Gate 1938-10-01</title>
                 <author>Elin Wägner (1882-1949)</author>
                 <!-- Ska vi ange Vanni som en någon slags creator här iom att han tagit fotografiet? Vilket element isf? /Moa--> 
-                
                 <editor>Narmin Abdullayeva</editor>
                 <editor>Moa Benjaminsson Randén</editor>
                 <editor>Ellen Bågmark</editor>
                 <editor>Emmy Loft</editor>
             </titleStmt>
-            <!-- Här skulle vi kunna ha ett editionStmt som innehåller mer detaljerad information om vår transkription,
-                ex vilket år den genomfördes och mer exakt vad vi har gjort (dvs transkriberat - går också att lägga
-                in vem som har korrekturläst etc). /Ellen--> 
+            <!-- Encoding desc, editorial declaration. här skulle vi t ex 
+            också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
+            projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen -->
             <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
+            <!-- Storleken på breven -->
             <publicationStmt>
                 <authority>
-                    <!-- Jag valde att använda elementet "authority" här istället för publisher/distributer för att det 
-                    inte känns helt korrekt att säga att HB publicerar och distribuerar vårt material, men de måste väl
-                    ändå anses vara ansvariga eftersom att projektet görs inom ramen för kursen. /Ellen -->
                     <name>Högskolan i Borås</name>
                     <address>
                         <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
                         <addrLine>Högskolan i Borås</addrLine>
                         <addrLine>501 90 Borås</addrLine>
                         <addrLine>https://www.hb.se/</addrLine>
-                        <!-- Här tror jag att vi också kan använda elementen <date> för att markera datumet vårt projekt
-                        publiceras och <availablity> med ett <license>-element inuti om vi vill skydda transkriptionerna 
-                        med en Creative Commons-licens. /Ellen -->
                     </address>
                 </authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
+                    </licence>
+                </availability>
+                <!-- Här tror jag att vi också kan använda elementet <date> för att markera datumet vårt projekt
+                        publiceras. /Ellen -->
             </publicationStmt>
+            
             <!-- Vi har också möjligheten att göra ett notesStmt där vi kan skriva lite vad vi vill - här skulle vi t ex 
             också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
             projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen --> 
@@ -46,17 +48,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                         <country>Sverige</country>
-                        <settlement>Göteborg</settlement>
-                        <repository>KvinnSam
+                        <settlement>Göteborg
                             <address><addrLine>Humanistiska biblioteket</addrLine>
                                 <addrLine>Renströmsgatan 4</addrLine>
                                 <addrLine>412 55 Göteborg</addrLine>
                             </address>
-                        </repository>
+                        </settlement>
+                        <repository>KvinnSam</repository>
                         <collection>Elin Wägners samling</collection>
-                        <idno>A 48a</idno>
+                        <idno>A 48a, seriesignum E II, volym 1, Gate, Flory 166 originalbrev (1933-1939)</idno>
                         <idno type="URI">http://urn.kb.se/resolve?urn=urn:nbn:se:alvin:portal:record-114992</idno>
-                        <!-- Här skulle vi ev kunna lägga in fler hänvisningar, exakt var man hittar just detta vykort
+                        <!-- Här skulle vi kunna lägga in fler hänvisningar, exakt var man hittar just detta vykort/brev
                         i arkivet, vykortets nummer i samlingen etc. /Ellen-->
                     </msIdentifier>
                     <msContents>
@@ -65,12 +67,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <title>Brev från Elin Wägner till Flory Gate 1938-03-25</title>
                         </msItem>
                     </msContents>
-                    <physDesc>
+                    <physDesc> 
+                        <p>Maskinskrivet brev skickat från Elin Wägner till Flory Gate 1938-03-25. Fastklistrat på
+                            brevet medföljer ett fotografi föreställande Elin Wägner. Av brevets innehåll framkommer
+                            det att fotografen är <persName ref="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A45545&amp;dswid=7021">
+                                Harald Giovanni "Vanni" Wägner</persName>. Brevet avslutas med en handskriven signatur av Elin Wägner.</p>
                         <objectDesc>
-                            <p>Ett maskinskrivet brev skickat från Elin Wägner till Flory Gate.</p>
-                            <p>Texten är maskinskriven och signerad av Elin Wägner.</p> 
-                            <p>Fastklistrat nedtill på brevets andra sida finns ett fotografi föreställande Elin Wägner sittandes i en soffa.</p>
+                            <supportDesc>
+                                <extent>
+                                    <measure unit="pages">2</measure>
+                                    <dimensions scope="all" type="leaf" unit="mm">
+                                        <height>286</height>
+                                        <width>225</width>
+                                        <!-- Var osäker på vad jag skulle lägga in för mått här - vad är höjden
+                                    och bredden på ett vykort osv. Men måtten är 150 mm x 105 mm. /Ellen-->
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
                         </objectDesc>
+                        <handDesc>
+                            <p>Texten är maskinhandskriven och signerad av Elin Wägner.</p>
+                        </handDesc>
                     </physDesc>
                 </msDesc>
                 <bibl>Elin Wägners samling består av material som mottogs av Kvinnohistoriska samlingarna 
@@ -78,11 +95,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Universitetsbibliotek.</bibl> 
             </sourceDesc> 
         </fileDesc>
-        
-        <!-- Vi diskuterade under mötet 11/4 huruvida keywords ur ett kontrollerat vokuabulär kan vara av intresse att få med i metadatan.
-            Så har de gjort i exemplet från KB (se Anne-Maries brev i högskolans github). Kvinnsam har ett eget som de brukar använda sig av,
-            så det hade kanske varit kul att inkludera med tanke på länkbarhet etcetc. Här gjorde jag ett försök utifrån
-            KB-exemplet och innehållet i 38.008. /Moa -->
+        <!-- Nedan lade jag till keywords för att beskiva innehållet i vykortet. Kan utökas allt eftersom om vi hittar fler
+            förslag. Här valde jag att använda 2 olika schemes: kvinnsams ämnesordsregister och SAO. /Moa 23/4 -->
         <profileDesc>
             <textClass>
                 <keywords scheme="https://id.kb.se/term/sao">
@@ -99,8 +113,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </keywords>
              </textClass>
         </profileDesc>
+        
+        <encodingDesc>
+            <projectDesc> 
+                <p>Materialet har fotograferats, transkriberats, TEI-kodats och tillgängliggjorts digitalt som en del 
+                    av kursen "Digitalisering för bevarande och tillgänglighet" som gavs våren 2024 vid Högskolan i Borås 
+                    och är en del av Masterprogrammet i Biblioteks- och Informationsvetenskap. Ett övergripande syfte har 
+                    varit att belysa det rika kulturarvsmaterial som finns arkiverat hos minnesinstitutioner och
+                    hur digitalisering kan användas för att ge fler människor tillgång till det.</p> 
+            </projectDesc>
+            <editorialDecl>
+                <p>Materialet har transkriberats av Narmin Abdullayeva, Moa Benjaminsson Randén, Ellen Bågmark och
+                    Emmy Loft. Transkriptionerna har gjorts så nära originaltexten som möjligt. Inga korrigeringar av
+                    stavning eller moderniseringar av uttryck har gjorts. Sakkunniga från Elin Wägners stiftelse och 
+                    Kvinnsam har granskat så väl transkriptioner som innehåll och bidragit med information om exempelvis
+                    platser, personer och händelser som förekommer i materialet. 
+                    <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
+                       "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
+                       eller är det bara "slarvig handstil"? /Ellen
+                       Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
+                </p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>Projektets urval bestod av två vykort och två brev skrivna av Elin Wägner till Flory Gate. Materialet 
+                    skiljer sig åt i så väl materialitet som innehåll. Utifrån det varierade urvalet ämnar projektet belysa 
+                    flera aspekter av Elin Wägner - hennes liv och gärning, hennes politiska engagemang och hennes 
+                    mångsidiga relation till Flory Gate.</p>
+            </samplingDecl>
+            <!-- Fler element kan användas inom detta element. Det finns element som rör annotering/taggningar av 
+                text, referenser, klassifikation, geografiska koordinater, mätenheter, schema-specifikationer och 
+                schema-referenser. -->
+        </encodingDesc>
     </teiHeader>
-    
+    <!-- Här kommer vi addera elementet <facsimile></facsimile> med länkar till de färdiga bilderna av brevet
+       i enlighet med Wouts kod. -->
 <text type="letter">
         <body> 
             <div>
@@ -210,7 +256,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <graphic height="600px" width="600px"
                         url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
                     <figDesc>Ett svartvitt fotografi föreställande Elin Wägner sittandes i en soffa. På sida 2 i brevet
-                        anges <persName>Vanni</persName> vara fotografen. </figDesc>
+                        anges <persName ref="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A45545&amp;dswid=7021">Vanni</persName> vara fotografen. </figDesc>
                 </figure>
                 
             </div>
