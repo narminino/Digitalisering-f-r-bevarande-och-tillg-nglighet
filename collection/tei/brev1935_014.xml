@@ -137,11 +137,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     
     <text type="letter">
         <body> 
-            <div type="adress">
+            <div type="archivalAnnotation">
+                <fw type="handwritten" place="top-right">14</fw>
+            </div>
+            
+            <div type="preprinted">
                 <p><stamp>Italienskt frimärke.</stamp></p>
                 <p><stamp>Italiensk poststämpel.</stamp></p>
                 <p><stamp>Italiensk poststämpel.</stamp></p>
-                
+           </div>
+            
+           <div type="adress">
                 <p><address>
                     <addrLine>Fru Flory Gate</addrLine>
                     <addrLine>Orrefors</addrLine>

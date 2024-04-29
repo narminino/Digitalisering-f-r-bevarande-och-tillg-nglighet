@@ -155,6 +155,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                 <pb n="1"/> 
                 
+                <div type="archivalAnnotation">
+                    <fw type="handwritten" place="top-right">8</fw>
+                </div>
+                
                 <opener>
                 <dateline rend="right">
                     <placeName>Bergslund</placeName>.
