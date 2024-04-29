@@ -64,8 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </msItem>
                     </msContents>
                     <physDesc> 
-                        <p>Ett brev skickat från Elin Wägner till Flory Gate. Brevet är handskrivet på ett vitt pappersark. Brevet har 
-                            postats från Sverige.</p>
+                        <p>Ett brev skickat från Elin Wägner till Flory Gate. Brevet är handskrivet på ett vitt pappersark.
+                            </p>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
