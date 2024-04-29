@@ -204,6 +204,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <salute>Kom snart.</salute>
                     <signed>Elin</signed>
                 </closer>
+                
+                <pb n="2"/>
+                <figure>
+                    <head>Fotografi föreställande en staty.</head>
+                    <graphic height="600px" width="600px"
+                        url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
+                    <figDesc>Ett svartvitt fotografi. </figDesc>
+                </figure>
             </div>
         </body>
     </text>
