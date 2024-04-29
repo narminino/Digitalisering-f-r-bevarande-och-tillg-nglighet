@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Transkription av brev från 
+                    <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> och
+                    <persName ref="https://libris.kb.se/fcrtv7sz1xq05v1#it">Amelie Posse Brazdova</persName> till 
+                    <persName ref="https://libris.kb.se/7nkc8vg8573h1302#it">Flory Gate</persName>1935-04-11</title>
+                
+                <author>Elin Wägner (1882-1949)</author>
+                <author>Amelie Posse-Brazdova (1884-1957)</author>
+                
+                <editor>Narmin Abdullayeva</editor>
+                <editor>Moa Benjaminsson Randén</editor>
+                <editor>Ellen Bågmark</editor>
+                <editor>Emmy Loft</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority>
+                    <name>Högskolan i Borås</name>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>Högskolan i Borås</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                        <!-- Här tror jag att vi också kan använda elementen <date> för att markera datumet vårt projekt
+                        publiceras och <availablity> med ett <license>-element inuti om vi vill skydda transkriptionerna 
+                        med en Creative Commons-licens. /Ellen -->
+                    </address>
+                </authority>  
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Sverige</country>
+                        <settlement>Göteborg
+                            <address><addrLine>Humanistiska biblioteket</addrLine>
+                                <addrLine>Renströmsgatan 4</addrLine>
+                                <addrLine>412 55 Göteborg</addrLine>
+                            </address>
+                        </settlement>
+                        <repository>KvinnSam</repository>
+                        <collection>Elin Wägners samling</collection>
+                        <idno>A 48a, seriesignum E II, volym 1, Gate, Flory 166 originalbrev (1933-1939)</idno>
+                        <idno type="URI">http://urn.kb.se/resolve?urn=urn:nbn:se:alvin:portal:record-114992</idno>
+                        <!-- Här skulle vi kunna lägga in fler hänvisningar, exakt var man hittar just detta vykort
+                        i arkivet, vykortets nummer i samlingen etc. /Ellen-->
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Elin Wägner (1882-1949)</author>
+                            <author>Amelie Posse-Brazdova (1884-1957)</author>
+                            <title>Vykort från Elin Wägner och Amelie Posse-Brazdova till Flory Gate 1938-10-01</title>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <p>Ett vykort skickat från Elin Wägner och Amelie Posse-Brazdova till Flory Gate.
+                            Texten är handskriven av Elin Wägner och Amelie Posse-Brazdova.
+                            <!-- Här bör det läggas in en beskrivning av vykortet och kvinnorna i fråga -->.
+                            Vykortet har postats från Italien.</p>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure unit="pages">2</measure>
+                                    <dimensions scope="all" type="leaf" unit="mm">
+                                        <height>90</height>
+                                        <width>140</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    <handDesc hands="3">
+                            <handNote xml:id="EW">Skrivet av Elin Wägner</handNote>
+                            <handNote xml:id="APB">Skrivet av Amelie Posse-Brazdova </handNote>
+                            <handNote xml:id="Unknown"> Skrivet av okänd</handNote>
+                    </handDesc>
+                    </physDesc>
+                    
+                </msDesc>
+                <bibl>Elin Wägners samling består av material som mottogs av Kvinnohistoriska samlingarna 
+                    år 1980-1981. Materialet finns arkiverat hos KvinnSam som är en del av Göteborgs 
+                    Universitetsbibliotek.</bibl> 
+            </sourceDesc>
+            
+        </fileDesc>
+        <!-- Nedan lade jag till keywords för att beskiva innehållet i vykortet. Kan utökas allt eftersom om vi hittar fler förslag. /Moa 23/4 -->
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://id.kb.se/term/sao">
+                    <term><ref target="https://id.kb.se/term/sao/Italien--Rom">Italien--Rom</ref></term>
+                </keywords>
+                <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">handskrifter</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">författare</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">brev</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc> 
+                <p>Materialet har fotograferats, transkriberats, TEI-kodats och tillgängliggjorts digitalt som en del 
+                    av kursen "Digitalisering för bevarande och tillgänglighet" som gavs våren 2024 vid Högskolan i Borås 
+                    och är en del av Masterprogrammet i Biblioteks- och Informationsvetenskap. Ett övergripande syfte har 
+                    varit att belysa det rika kulturarvsmaterial som finns arkiverat hos minnesinstitutioner och
+                    hur digitalisering kan användas för att ge fler människor tillgång till det.</p> 
+            </projectDesc>
+            <editorialDecl>
+                <p>Materialet har transkriberats av Narmin Abdullayeva, Moa Benjaminsson Randén, Ellen Bågmark och
+                    Emmy Loft. Transkriptionerna har gjorts så nära originaltexten som möjligt. Inga korrigeringar av
+                    stavning eller moderniseringar av uttryck har gjorts. Sakkunniga från Elin Wägners stiftelse och 
+                    Kvinnsam har granskat så väl transkriptioner som innehåll och bidragit med information om exempelvis
+                    platser, personer och händelser som förekommer i materialet. 
+                    <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
+                       "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
+                       eller är det bara "slarvig handstil"? /Ellen
+                       Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
+                </p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>Projektets urval bestod av två vykort och två brev skrivna av Elin Wägner till Flory Gate. Materialet 
+                    skiljer sig åt i så väl materialitet som innehåll. Utifrån det varierade urvalet ämnar projektet belysa 
+                    flera aspekter av Elin Wägner - hennes liv och gärning, hennes politiska engagemang och hennes 
+                    mångsidiga relation till Flory Gate.</p>
+            </samplingDecl>
+            <!-- Fler element kan användas inom detta element. Det finns element som rör annotering/taggningar av 
+                text, referenser, klassifikation, geografiska koordinater, mätenheter, schema-specifikationer och 
+                schema-referenser. -->       
+        </encodingDesc>       
+    </teiHeader>
+    
+    <text type="letter">
+        <body> 
+            <div type="adress">
+                <p><stamp>Italienskt frimärke.</stamp></p>
+                <p><stamp>Italiensk poststämpel.</stamp></p>
+                <p><stamp>Italiensk poststämpel.</stamp></p>
+                
+                <p><address>
+                    <addrLine>Fru Flory Gate</addrLine>
+                    <addrLine>Orrefors</addrLine>
+                    <addrLine>Suède</addrLine>
+                </address></p>
+            </div>
+            
+            <div type="letter">
+                
+                <opener>
+                    <dateline>
+                        <date when="1935-04-11">11.4.35</date> 
+                    </dateline>
+                </opener>
+                  
+            <p hand = "#APB"> En mänska, vars hand-<lb/>
+            stil vi så ofta sett på adressen till<lb/> 
+            Elin, måste vara särdeles och<lb/> 
+            lite förmer - henne måste vi<lb/>  
+            andra vänner i Elin också få lov<lb/>  
+            att sympatifullt hälsa denna<lb/>  
+            sista dag det förunnas oss att ha<lb/>  
+            henne kvar. Kom hit med hen-<lb/> 
+            ne om två år - om världen ännu<lb/>  
+            står då.</p>  
+            
+            <closer>
+                <salute>Och tills dess lev väl - </salute>  
+                <signed>Amelie P.B.</signed>
+            </closer>
+            </div> 
+                
+            <div type="letter">
+            <p hand = "#EW">    
+            Du är adopterad på<lb/>  
+            din handstil - voilà. Skriv till: Albergo<lb/> 
+            Sta Chiara, Roma.</p>
+                
+            <closer> 
+                <signed>Elin</signed>
+            </closer>  
+            </div> 
+            
+            <div type="unclear"> 
+                <p hand="#Unknown">
+                <gap reason="illegible"/>
+                </p>
+                
+            <div type="letter">
+                <pb n="2"/>
+                <figure>
+                    <head>Fotografi föreställande tre kvinnor.</head>
+                    <graphic height="90mm" width="140mm"
+                        url="" mimeType="image/png"/>
+                    <figDesc>Ett svartvitt fotografi av tre kvinnor i en hamn
+                    från vänster till höger: Elin Wägner, okänd kvinna
+                    (eventuellt Marika Stiernstedt eller Bettan Thiel),
+                    Amelie Posse-Brazdova</figDesc>
+                </figure>
+            </div>
+                
+            </div> 
+        </body>
+    </text>
+</TEI>
