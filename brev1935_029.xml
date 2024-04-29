@@ -137,8 +137,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     
     <text type="letter">
         <body>
-            <div>
-            <pb n="1"/>
+                <pb n="1"/>
+                <div type="archivalAnnotation">
+                    <fw type="handwritten" place="top-right">29</fw>
+                </div>
+            <div type="letter">
                 <opener>
                     <dateline rend="left"> 
                         <placeName>Tidevarvet</placeName>
