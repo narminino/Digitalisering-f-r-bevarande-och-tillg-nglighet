@@ -21,7 +21,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
             projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen -->
             <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
-            <!-- Storleken på breven -->
             <publicationStmt>
                 <authority>
                     <name>Högskolan i Borås</name>
@@ -74,8 +73,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <dimensions scope="all" type="leaf" unit="mm">
                                     <height>150mm</height>
                                     <width>105mm</width>
-                                    <!-- Var osäker på vad jag skulle lägga in för mått här - vad är höjden
-                                    och bredden på ett vykort osv. Men måtten är 150 mm x 105 mm. /Ellen-->
                                 </dimensions>
                                 </extent>
                             </supportDesc>
@@ -156,7 +153,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <div type="preprinted">
                 <fw type="preprinted" place="top-left">POSTKARTE</fw>
-                </div>
+            </div>
             
             <div type="stamp">
                 <p><stamp>Svenskt frimärke.</stamp></p>
@@ -207,10 +204,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                 <pb n="2"/>
                 <figure>
-                    <head>Fotografi föreställande en staty.</head>
-                    <graphic height="600px" width="600px"
+                    <head>Fotografi föreställande en stenstaty.</head>
+                    <graphic height="150mm" width="105mm"
                         url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
-                    <figDesc>Ett svartvitt fotografi. </figDesc>
+                    <figDesc>Ett svartvitt fotografi föreställande statyn <objectName ref="https://collections.smvk.se/carlotta-vkm/web/object/2001754">Moder med barn</objectName>
+                       som tillhör Etnologiska Museet (tidigare Museum für Völkerkunde) i Berlin men som 1939 förvärvades till Världskulturmuseet i Göteborg.</figDesc>
                 </figure>
             </div>
         </body>
