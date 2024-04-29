@@ -9,7 +9,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Transkription av vykort från Elin Wägner och Amelie Posse-Brazdova till Flory Gate 1938-10-01</title>
+                <title>Transkription av brev från 
+                    <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> till 
+                    <persName ref="https://libris.kb.se/7nkc8vg8573h1302#it">Flory Gate</persName>1935-04-11</title>
+                
                 <author>Elin Wägner (1882-1949)</author>
                 <author>Amelie Posse-Brazdova (1884-1957)</author>
                 
@@ -195,6 +198,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p hand="#Unknown">
                 <gap reason="illegible"/>
                 </p>
+                
+            <div type="letter">
+                <pb n="2"/>
+                <figure>
+                    <head>Fotografi föreställande tre kvinnor.</head>
+                    <graphic height="90mm" width="140mm"
+                        url="" mimeType="image/png"/>
+                    <figDesc>Ett svartvitt fotografi av tre kvinnor i en hamn
+                    från vänster till höger: Elin Wägner, okänd kvinna
+                    (eventuellt Marika Stiernstedt eller Bettan Thiel),
+                    Amelie Posse-Brazdova</figDesc>
+                </figure>
+            </div>
+                
             </div> 
         </body>
     </text>
