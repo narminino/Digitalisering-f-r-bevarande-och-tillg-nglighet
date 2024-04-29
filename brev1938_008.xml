@@ -155,6 +155,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                 <pb n="1"/> 
                 
+                <div type="archivalAnnotation">
+                    <fw type="handwritten" place="top-right">8</fw>
+                </div>
+                <!-- Ett sätt att få in Kvinnsams nummer - behöver nog nämnas i header eftersom att definitionen "type" är
+            skapad för projektet. /Ellen -->
+                
                 <opener>
                 <dateline rend="right">
                     <placeName>Bergslund</placeName>.
@@ -177,8 +183,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Nu får vi se vad du tycker om Curieboken och Nya testamentet. Jag<lb/>
                     läste lite i det senare och jag tyckte det var roligt, den gamla över-<lb/>
                     sättningen hade de inte inne på lager i Nordiska bokhandeln, men du<lb/>
-                    kan förstås få byta dig till den om du v ill i alla fall. Och även<lb/>
-                    till en bibel på svenska om du det vill. Curieboken var så dåligt över-<lb/>
+                    kan förstås få byta dig till den om du vill i alla fall. Och även<lb/>
+                    till en bibel på svenska om du det v ill. Curieboken var så dåligt över-<lb/>
                     satt så den måste du ha på originalspråket även om utstyrseln var för-<lb/>
                     vånande enkel även i jämförelse med andra franska böcker. </p>
                 
@@ -188,7 +194,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     alltid att så där försöka med ett pensum. Men en del jag gjorde då var<lb/>
                     ju ändå bra att ha gjort som en övergång till det jag nu skriver. Jag<lb/>
                     är snart färdig därmed och sen måste jag börja tänka på det nya.<lb/>
-                      Vet du vad jag hittade för ett underbart ord i Peace News. <persName>Lord Lothia</persName><lb/>
+                      Vet du vad jag hittade för ett underbart ord i Peace News. Lord Lothia<lb/>
                       hade varit och sett på <persName ref="https://libris.kb.se/42gknt6n1m6s83l#it">Gandhis</persName>
                       hemindustri bland de indiska bönderna<lb/>
                     där han liksom bygger upp från början hantverk och hemliv på den grund<lb/>
@@ -265,7 +271,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <figDesc>Ett svartvitt fotografi föreställande Elin Wägner sittandes i en soffa. På sida 2 i brevet
                         anges <persName ref="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A45545&amp;dswid=7021">Harald Giovanni "Vanni" Wägner</persName> vara fotografen. </figDesc>
                 </figure>
-                
             </div>
         </body>
     </text>
