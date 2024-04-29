@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <title>Transkription av brev från 
-                    <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> till 
+                    <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> och
+                    <persName ref="https://libris.kb.se/fcrtv7sz1xq05v1#it">Amelie Posse Brazdova</persName> till 
                     <persName ref="https://libris.kb.se/7nkc8vg8573h1302#it">Flory Gate</persName>1935-04-11</title>
                 
                 <author>Elin Wägner (1882-1949)</author>
