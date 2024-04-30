@@ -136,12 +136,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 text, referenser, klassifikation, geografiska koordinater, mätenheter, schema-specifikationer och 
                 schema-referenser. -->
         </encodingDesc>
-    </teiHeader>
-   <!-- Här kommer vi addera elementet <facsimile></facsimile> med länkar till de färdiga bilderna av brevet
-       i enlighet med Wouts kod. -->
+    </teiHeader> 
+    <facsimile>
+    <surface xml:id="brev1938_029a">
+         <figure>
+            <label>Vykortets textsida.</label>
+            <figDesc>
+              Ett fotografi av ett vykorts textsida med ett meddelande skrivet av Elin Wägner.
+            </figDesc>
+            <graphic xml:id="brev1938_029a_full" url="ew_till_fg_1938_029a.jpg"/>
+          <!--  <graphic xml:id="brev1938_029a_thumb" url=""/> -->
+         </figure>
+      </surface>
+      <surface xml:id="brev1938_029b">
+         <figure>
+            <label>Vykortets bildsida.</label>
+            <figDesc>
+               Ett fotografi av ett vykorts bildsida som föreställer en stenstaty.
+            </figDesc>
+            <graphic xml:id="brev1938_029b_full" url="collection/img/ew_till_fg_1938_029b.jpg"/>
+           <!-- <graphic xml:id="brev1938_029b_thumb" url=""/> -->
+         </figure>
+      </surface>
+    </facsimile>
     <text type="letter">
         <body> 
-            <pb n="1"/>
+            <pb n="1" facs="#brev1938_029a"/>
             
             <div type="archivalAnnotation">
                 <fw type="handwritten" place="top-right">29</fw>
@@ -198,7 +218,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <signed>Elin</signed>
                 </closer>
                 
-                <pb n="2"/>
+                <pb n="2" facs="#brev1938_029b"/>
                 <figure>
                     <head>Fotografi föreställande en stenstaty.</head>
                     <graphic height="150mm" width="105mm"
