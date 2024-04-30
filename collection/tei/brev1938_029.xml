@@ -144,7 +144,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
               Ett fotografi av ett vykorts textsida med ett meddelande skrivet av Elin Wägner.
             </figDesc>
-            <graphic xml:id="brev1938_029a_full" url="ew_till_fg_1938_029a.jpg"/>
+            <graphic xml:id="brev1938_029a_full" url="collection/img/ew_till_fg_1938_029a.jpg"/>
           <!--  <graphic xml:id="brev1938_029a_thumb" url=""/> -->
          </figure>
       </surface>
@@ -186,7 +186,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <div type="preprinted"> 
                 <fw type="preprinted" place="bottom-left">VÖLKERKUNDE-MUSEUM, BERLIN</fw>
-                <fw type="preprinted" place="bottom-right">Mutter und Kind, Stein</fw> 
+                <fw type="preprinted" place="bottom-right">Mutter mit Kind, Stein</fw> 
                 <fw type="preprinted" place="bottom-right">Alt-Mexico (Guerrero)</fw>
             </div>
             
