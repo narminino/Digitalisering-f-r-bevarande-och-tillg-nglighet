@@ -218,7 +218,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <signed>Elin</signed>
                 </closer>
                 
-                <pb n="2" facs="#brev1938_029b"/>
+            <pb n="2" facs="#brev1938_029b"/>
                 <figure>
                     <head>Fotografi föreställande en stenstaty.</head>
                     <graphic height="150mm" width="105mm"
