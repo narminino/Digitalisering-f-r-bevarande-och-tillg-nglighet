@@ -17,9 +17,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <editor>Ellen Bågmark</editor>
                 <editor>Emmy Loft</editor>
             </titleStmt>
-            <!-- Encoding desc, editorial declaration. här skulle vi t ex 
-            också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
-            projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen -->
             <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
             <publicationStmt>
                 <authority>
@@ -53,8 +50,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <collection>Elin Wägners samling</collection>
                         <idno>A 48a, seriesignum E II, volym 1, Gate, Flory 166 originalbrev (1933-1939)</idno>
                         <idno type="URI">http://urn.kb.se/resolve?urn=urn:nbn:se:alvin:portal:record-114992</idno>
-                        <!-- Här skulle vi kunna lägga in fler hänvisningar, exakt var man hittar just detta vykort
-                        i arkivet, vykortets nummer i samlingen etc. /Ellen-->
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -122,12 +117,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    Emmy Loft. Transkriptionerna har gjorts så nära originaltexten som möjligt. Inga korrigeringar av
                    stavning eller moderniseringar av uttryck har gjorts. Sakkunniga från Elin Wägners stiftelse och 
                    Kvinnsam har granskat så väl transkriptioner som innehåll och bidragit med information om exempelvis
-                   platser, personer och händelser som förekommer i materialet. 
+                   platser, personer och händelser som förekommer i materialet.</p>
+                <p>Samtliga brev har ett handskrivet nummer som motsvarar dess nummer i KvinnSams arkiv. Detta nummer har 
+                   i projektet kodats som en "archival annotation" för att markera att det har adderats till källmaterialet i
+                   efterhand i syfte att underlätta sortering och arkivering.</p>
                    <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
                        "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
                        eller är det bara "slarvig handstil"? /Ellen
                        Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
-                </p>
             </editorialDecl>
             <samplingDecl>
                 <p>Projektets urval bestod av två vykort och två brev skrivna av Elin Wägner till Flory Gate. Materialet 
@@ -145,11 +142,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text type="letter">
         <body> 
             <pb n="1"/>
+            
             <div type="archivalAnnotation">
                 <fw type="handwritten" place="top-right">29</fw>
             </div>
-            <!-- Ett sätt att få in Kvinnsams nummer - behöver nog nämnas i header eftersom att definitionen "type" är
-            skapad för projektet. /Ellen -->
             
             <div type="preprinted">
                 <fw type="preprinted" place="top-left">POSTKARTE</fw>
@@ -207,8 +203,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <head>Fotografi föreställande en stenstaty.</head>
                     <graphic height="150mm" width="105mm"
                         url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
-                    <figDesc>Ett svartvitt fotografi föreställande statyn <objectName ref="https://collections.smvk.se/carlotta-vkm/web/object/2001754">Moder med barn</objectName>
-                       som tillhör Etnologiska Museet (tidigare Museum für Völkerkunde) i Berlin men som 1939 förvärvades till Världskulturmuseet i Göteborg.</figDesc>
+                    <figDesc>Ett svartvitt fotografi föreställande den mexikanska stenstatyn <objectName ref="https://id.smb.museum/object/100547/mutter-mit-kind">Mutter mit kind</objectName>
+                        som tillhör Etnologisches Museum (tidigare Völkerkunde-Museum) i Berlin.</figDesc>
                 </figure>
             </div>
         </body>
