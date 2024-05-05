@@ -21,7 +21,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
             projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen -->
             <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
-            <!-- Storleken på breven -->
             <publicationStmt>
                 <authority>
                     <name>Högskolan i Borås</name>
