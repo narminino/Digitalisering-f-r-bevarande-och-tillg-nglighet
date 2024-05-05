@@ -7,6 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> 
     
     <teiHeader>
+        
         <fileDesc>
             <titleStmt>
                 <title>Transkription av brev från <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName>
@@ -127,12 +128,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Emmy Loft. Transkriptionerna har gjorts så nära originaltexten som möjligt. Inga korrigeringar av
                     stavning eller moderniseringar av uttryck har gjorts. Sakkunniga från Elin Wägners stiftelse och 
                     Kvinnsam har granskat så väl transkriptioner som innehåll och bidragit med information om exempelvis
-                    platser, personer och händelser som förekommer i materialet. 
+                    platser, personer och händelser som förekommer i materialet.</p>
+                <p>Samtliga brev har ett handskrivet nummer som motsvarar dess nummer i KvinnSams arkiv. Detta nummer har 
+                    i projektet kodats som en "archival annotation" för att markera att det har adderats till källmaterialet i
+                    efterhand i syfte att underlätta sortering och arkivering.</p>
                     <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
                        "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
                        eller är det bara "slarvig handstil"? /Ellen
                        Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
-                </p>
             </editorialDecl>
             <samplingDecl>
                 <p>Projektets urval bestod av två vykort och två brev skrivna av Elin Wägner till Flory Gate. Materialet 
@@ -145,14 +148,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 schema-referenser. -->
         </encodingDesc>
     </teiHeader>
-    <!-- Här kommer vi addera elementet <facsimile></facsimile> med länkar till de färdiga bilderna av brevet
-       i enlighet med Wouts kod. -->
+    <facsimile>
+        <surface xml:id="brev1938_008a">
+            <figure>
+                <label>Brevets första sida.</label>
+                <figDesc>
+                    Ett fotografi av ett brevs första sida med ett meddelande skrivet av Elin Wägner.
+                </figDesc>
+                <graphic xml:id="brev1938_008a_full" url="collection/img/ew_till_fg_1938_008a.jpg"/>
+                <!--  <graphic xml:id="brev1938_008a_thumb" url=""/> -->
+            </figure>
+        </surface>
+        <surface xml:id="brev1938_008b">
+            <figure>
+                <label>Brevets andra sida.</label>
+                <figDesc>
+                    Ett fotografi av ett ett brevs andra sida med ett meddelande skrivet av Elin Wägner samt ett fastklistrat fotografi.
+                </figDesc>
+                <graphic xml:id="brev1938_029b_full" url="collection/img/ew_till_fg_1938_008b.jpg"/>
+                <!-- <graphic xml:id="brev1938_008b_thumb" url=""/> -->
+            </figure>
+        </surface>
+    </facsimile>
+  
     <text type="letter">
         <body>
             <pb n="1"/>
+            
             <div type="archivalAnnotation">
                 <fw type="handwritten" place="top-right">8</fw>
             </div>
+            
             <div type="letter">
                 <opener>
                 <dateline rend="right">
@@ -263,7 +289,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <graphic height="45mm" width="61mm"
                         url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
                     <figDesc>Ett svartvitt fotografi föreställande Elin Wägner sittandes i en soffa. På sida 2 i brevet
-                        anges <persName ref="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A45545&amp;dswid=7021">Harald Giovanni "Vanni" Wägner</persName> vara fotografen. </figDesc>
+                        anges <persName ref="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A45545&amp;dswid=7021">Harald Giovanni
+                            "Vanni" Wägner</persName> vara fotografen. </figDesc>
                 </figure>
             </div>
         </body>
