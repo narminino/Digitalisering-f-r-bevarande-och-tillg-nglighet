@@ -82,9 +82,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Universitetsbibliotek.</bibl> 
             </sourceDesc> 
         </fileDesc>
-        <!-- Nedan lade jag till keywords för att beskiva innehållet i vykortet. Kan utökas allt eftersom om vi hittar fler
-            förslag. Här valde jag att använda 3 olika schemes: carlottas motivord, kvinnsams ämnesordsregister och SAO. Det
-            förnämnda kändes relevant iom länkbarhet etc. /Moa 23/4 -->
         <profileDesc>
             <textClass>
                 <keywords scheme="https://collections.smvk.se/carlotta-vkm/web/element/703">
@@ -121,10 +118,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Samtliga brev har ett handskrivet nummer som motsvarar dess nummer i KvinnSams arkiv. Detta nummer har 
                    i projektet kodats som en "archival annotation" för att markera att det har adderats till källmaterialet i
                    efterhand i syfte att underlätta sortering och arkivering.</p>
-                   <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
-                       "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
-                       eller är det bara "slarvig handstil"? /Ellen
-                       Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
             </editorialDecl>
             <samplingDecl>
                 <p>Projektets urval bestod av två vykort och två brev skrivna av Elin Wägner till Flory Gate. Materialet 
@@ -132,9 +125,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    flera aspekter av Elin Wägner - hennes liv och gärning, hennes politiska engagemang och hennes 
                    mångsidiga relation till Flory Gate.</p>
             </samplingDecl>
-            <!-- Fler element kan användas inom detta element. Det finns element som rör annotering/taggningar av 
-                text, referenser, klassifikation, geografiska koordinater, mätenheter, schema-specifikationer och 
-                schema-referenser. -->
         </encodingDesc>
     </teiHeader> 
     <facsimile>
@@ -145,7 +135,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               Ett fotografi av ett vykorts textsida med ett meddelande skrivet av Elin Wägner.
             </figDesc>
             <graphic xml:id="brev1938_029a_full" url="collection/img/ew_till_fg_1938_029a.jpg"/>
-          <!--  <graphic xml:id="brev1938_029a_thumb" url=""/> -->
          </figure>
       </surface>
       <surface xml:id="brev1938_029b">
@@ -155,7 +144,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Ett fotografi av ett vykorts bildsida som föreställer en stenstaty.
             </figDesc>
             <graphic xml:id="brev1938_029b_full" url="collection/img/ew_till_fg_1938_029b.jpg"/>
-           <!-- <graphic xml:id="brev1938_029b_thumb" url=""/> -->
          </figure>
       </surface>
     </facsimile>
