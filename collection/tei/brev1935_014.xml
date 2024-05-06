@@ -11,11 +11,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <titleStmt>
                 <title>Transkription av brev från 
                     <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> och
-                    <persName ref="https://libris.kb.se/fcrtv7sz1xq05v1#it">Amelie Posse Brazdova</persName> till 
+                    <persName ref="https://libris.kb.se/fcrtv7sz1xq05v1#it">Amelie Posse-Brazdova</persName> och
+                    <persName>En okänd författare</persName> till 
                     <persName ref="https://libris.kb.se/7nkc8vg8573h1302#it">Flory Gate</persName>1935-04-11</title>
                 
                 <author>Elin Wägner (1882-1949)</author>
                 <author>Amelie Posse-Brazdova (1884-1957)</author>
+                <author>Unknown</author>
                 
                 <editor>Narmin Abdullayeva</editor>
                 <editor>Moa Benjaminsson Randén</editor>
@@ -59,15 +61,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <msItem>
                             <author>Elin Wägner (1882-1949)</author>
                             <author>Amelie Posse-Brazdova (1884-1957)</author>
-                            <title>Vykort från Elin Wägner och Amelie Posse-Brazdova till Flory Gate 1938-10-01</title>
+                            <author>Unknown</author>
+                            <title>Vykort från Elin Wägner, Amelie Posse-Brazdova och en okänd författare till Flory Gate 1938-10-01</title>
                         </msItem>
                     </msContents>
                     
                     <physDesc>
-                        <p>Ett vykort skickat från Elin Wägner och Amelie Posse-Brazdova till Flory Gate.
-                            Texten är handskriven av Elin Wägner och Amelie Posse-Brazdova.
-                            <!-- Här bör det läggas in en beskrivning av vykortet och kvinnorna i fråga -->.
-                            Vykortet har postats från Italien.</p>
+                        <p>Ett vykort skickat från Elin Wägner, Amelie Posse-Brazdova och en okänd författare till Flory Gate.
+                           På sida 1: text handskriven av Elin Wägner, Amelie Posse-Brazdova och en okänd författare. 
+                           På sida 2: ett svartvitt fotografi av tre kvinnor i en hamn.
+                           Från vänster till höger: Elin Wägner, en okänd kvinna(eventuellt Marika Stiernstedt eller Bettan Thiel),
+                           Amelie Posse-Brazdova. Vykortet har postats från Italien.</p>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
@@ -82,7 +86,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <handDesc hands="3">
                             <handNote xml:id="EW">Skrivet av Elin Wägner</handNote>
                             <handNote xml:id="APB">Skrivet av Amelie Posse-Brazdova </handNote>
-                            <handNote xml:id="Unknown"> Skrivet av okänd</handNote>
+                            <handNote xml:id="Unknown"> Skrivet av en okänd författare</handNote>
                     </handDesc>
                     </physDesc>
                     
@@ -141,6 +145,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     
     <text type="letter">
         <body> 
+                <pb n="1"/>
             <div type="archivalAnnotation">
                 <fw type="handwritten" place="top-right">14</fw>
             </div>
@@ -206,8 +211,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <head>Fotografi föreställande tre kvinnor.</head>
                     <graphic height="90mm" width="140mm"
                         url="" mimeType="image/png"/>
-                    <figDesc>Ett svartvitt fotografi av tre kvinnor i en hamn
-                    från vänster till höger: Elin Wägner, okänd kvinna
+                    <figDesc>Ett svartvitt fotografi av tre kvinnor i en hamn.
+                    Från vänster till höger: Elin Wägner, en okänd kvinna
                     (eventuellt Marika Stiernstedt eller Bettan Thiel),
                     Amelie Posse-Brazdova</figDesc>
                 </figure>
