@@ -104,3 +104,8 @@ footer {
     font-variant : small-caps;
     text-align: right;
 }
+.archivalAnnotation {
+    color: gray;
+    font-variant: small-caps;
+    text-align: right;
+}
