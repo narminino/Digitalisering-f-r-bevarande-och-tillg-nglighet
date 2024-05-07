@@ -77,6 +77,10 @@ footer {
     width: 500px;
 }
 
+.img-full:hover {
+    width: 800px;
+}
+
 .img-flex {
     margin: 5px;
     border: 1px solid black;
@@ -104,9 +108,14 @@ footer {
     font-variant : small-caps;
     text-align: right;
 }
+
 .archivalAnnotation {
     color: gray;
     font-variant: small-caps;
     text-align: right;
     margin-right: 50px;
+}
+
+.indent {
+    width: 10px;
 }
