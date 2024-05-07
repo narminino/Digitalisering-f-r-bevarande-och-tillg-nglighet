@@ -30,6 +30,11 @@ h3 {
     
 }
 
+h4 {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
 #details {
     padding: 2vw;
     margin: 1vw;
@@ -116,6 +121,6 @@ footer {
     margin-right: 50px;
 }
 
-.indent {
-    width: 10px;
+.marginTop {
+    margin-top: 40px;
 }
