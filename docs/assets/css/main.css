@@ -17,6 +17,7 @@ nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
+    background-color: WhiteSmoke;
 }
 
 h2 {
@@ -69,12 +70,6 @@ footer {
     display: flex;
 }
 
-.thumbnail {
-    margin: 5px;
-    border: 1px solid black;
-    width: 100px;
-}
-
 .img-full {
     margin: 5px;
     border: 1px solid black;
@@ -89,28 +84,6 @@ footer {
     margin: 5px;
     border: 1px solid black;
     width: 300px;
-}
-
-.verticalTextTopLeft {
-    transform: rotate(-90deg);
-    font-variant : small-caps;
-    text-align: left;
-    padding: 2vw;
-    margin: 1vw;
-}
-.verticalTextTopRight {
-    transform: rotate(-90deg);
-    text-align: right;
-}
-.verticalTextBottomLeft {
-    transform: rotate(-90deg);
-    font-variant : small-caps;
-    text-align: left;
-}
-.verticalTextBottomRight {
-    transform: rotate(-90deg);
-    font-variant : small-caps;
-    text-align: right;
 }
 
 .archivalAnnotation {
