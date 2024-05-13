@@ -208,7 +208,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <figure>
                     <head>Fotografi föreställande en stenstaty.</head>
                     <graphic height="150mm" width="105mm"
-                        url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
+                        url="collection/img/ew_till_fg_1938_029b.jpg" mimeType="image/jpg"/>
                     <figDesc>Ett svartvitt fotografi föreställande den mexikanska stenstatyn <objectName ref="https://id.smb.museum/object/100547/mutter-mit-kind">Mutter mit kind</objectName>
                         som tillhör Etnologisches Museum (tidigare Völkerkunde-Museum) i Berlin.</figDesc>
                 </figure>
