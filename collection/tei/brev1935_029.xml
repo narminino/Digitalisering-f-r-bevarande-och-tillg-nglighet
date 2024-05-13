@@ -17,11 +17,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <editor>Ellen Bågmark</editor>
                 <editor>Emmy Loft</editor>
             </titleStmt>
-            <!-- Encoding desc, editorial declaration. här skulle vi t ex 
-            också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
-            projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen -->
-            <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
-            <!-- Storleken på breven -->
             <publicationStmt>
                 <authority>
                     <name>Högskolan i Borås</name>
@@ -32,13 +27,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <addrLine>https://www.hb.se/</addrLine>
                     </address>
                 </authority>
+                <date>2024</date>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                         <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
                     </licence>
                 </availability>
-                <!-- Här tror jag att vi också kan använda elementet <date> för att markera datumet vårt projekt
-                        publiceras. /Ellen -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -54,8 +48,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <collection>Elin Wägners samling</collection>
                         <idno>A 48a, seriesignum E II, volym 1, Gate, Flory 166 originalbrev (1933-1939)</idno>
                         <idno type="URI">http://urn.kb.se/resolve?urn=urn:nbn:se:alvin:portal:record-114992</idno>
-                        <!-- Här skulle vi kunna lägga in fler hänvisningar, exakt var man hittar just detta vykort
-                        i arkivet, vykortets nummer i samlingen etc. /Ellen-->
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -73,8 +65,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <dimensions scope="all" type="leaf" unit="mm">
                                         <height>277</height>
                                         <width>210</width>
-                                        <!-- Var osäker på vad jag skulle lägga in för mått här - vad är höjden
-                                    och bredden på ett vykort osv. Men måtten är 150 mm x 105 mm. /Ellen-->
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -89,9 +79,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Universitetsbibliotek.</bibl> 
             </sourceDesc> 
         </fileDesc>
-        <!-- Nedan lade jag till keywords för att beskiva innehållet i vykortet. Kan utökas allt eftersom om vi hittar fler
-            förslag. Här valde jag att använda 3 olika schemes: carlottas motivord, kvinnsams ämnesordsregister och SAO. Det
-            förnämnda kändes relevant iom länkbarhet etc. /Moa 23/4 -->
         <profileDesc>
             <textClass>
                 <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
@@ -117,10 +104,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     stavning eller moderniseringar av uttryck har gjorts. Sakkunniga från Elin Wägners stiftelse och 
                     Kvinnsam har granskat så väl transkriptioner som innehåll och bidragit med information om exempelvis
                     platser, personer och händelser som förekommer i materialet. 
-                    <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
-                       "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
-                       eller är det bara "slarvig handstil"? /Ellen
-                       Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
                 </p>
             </editorialDecl>
             <samplingDecl>
@@ -129,18 +112,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     flera aspekter av Elin Wägner - hennes liv och gärning, hennes politiska engagemang och hennes 
                     mångsidiga relation till Flory Gate.</p>
             </samplingDecl>
-            <!-- Fler element kan användas inom detta element. Det finns element som rör annotering/taggningar av 
-                text, referenser, klassifikation, geografiska koordinater, mätenheter, schema-specifikationer och 
-                schema-referenser. -->
         </encodingDesc>
     </teiHeader>
-    
+    <facsimile>
+        <surface xml:id="brev1935_029a">
+            <figure>
+                <label>Brevets första sida.</label>
+                <figDesc>
+                    Ett fotografi av ett brevs första sida med ett meddelande skrivet av Elin Wägner.
+                </figDesc>
+                <graphic xml:id="brev1935_029a_full" url="collection/img/ew_till_fg_1935_029a.jpg"/>
+            </figure>
+        </surface>
+        <surface xml:id="brev1935_029b">
+            <figure>
+                <label>Brevets andra sida.</label>
+                <figDesc>
+                    Ett fotografi av ett ett brevs andra sida med ett meddelande skrivet av Elin Wägner.
+                </figDesc>
+                <graphic xml:id="brev1935_029b_full" url="collection/img/ew_till_fg_1935_029b.jpg"/>
+            </figure>
+        </surface>
+    </facsimile>
     <text type="letter">
         <body>
-                <pb n="1"/>
+            <pb n="1" facs="#brev1935_029a"/>
+            
                 <div type="archivalAnnotation">
                     <fw type="handwritten" place="top-right">29</fw>
                 </div>
+            
             <div type="letter">
                 <opener>
                     <dateline rend="left"> 
@@ -174,7 +175,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 sa att blått glas var <lb/>
                 högmodernt nu och allt gammalt <lb/>
                 säljes dyrt så han tyckte det var <lb/>
-                <pb n="2"/> 
+                    
+                <pb n="2" facs="#brev1935_029b"/> 
                 
                 bra ni skulle börja.<lb/>
                 Ville ha gammallila också!<lb/>

@@ -17,7 +17,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <editor>Ellen Bågmark</editor>
                 <editor>Emmy Loft</editor>
             </titleStmt>
-            <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
             <publicationStmt>
                 <authority>
                     <name>Högskolan i Borås</name>
@@ -28,13 +27,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <addrLine>https://www.hb.se/</addrLine>
                     </address>
                 </authority>
+                <date>2024</date>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                         <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
                     </licence>
                 </availability>
-                <!-- Här tror jag att vi också kan använda elementet <date> för att markera datumet vårt projekt
-                        publiceras. /Ellen -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>

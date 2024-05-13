@@ -18,10 +18,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <editor>Ellen Bågmark</editor>
                 <editor>Emmy Loft</editor>
             </titleStmt>
-            <!-- Encoding desc, editorial declaration. här skulle vi t ex 
-            också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
-            projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen -->
-            <!-- Här går det också att ha ett extent-element (men det är frivilligt) som beskriver storleken på bildfilerna. /Ellen-->
             <publicationStmt>
                 <authority>
                     <name>Högskolan i Borås</name>
@@ -32,18 +28,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <addrLine>https://www.hb.se/</addrLine>
                     </address>
                 </authority>
+                <date>2024</date>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                         <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
                     </licence>
                 </availability>
-                <!-- Här tror jag att vi också kan använda elementet <date> för att markera datumet vårt projekt
-                        publiceras. /Ellen -->
             </publicationStmt>
-            
-            <!-- Vi har också möjligheten att göra ett notesStmt där vi kan skriva lite vad vi vill - här skulle vi t ex 
-            också kunna nämna att Dagmar har korrekturläst, men man kan också inkludera en mer översiktlig beskrivning av 
-            projektet och syftet med transkriptionen, metoder vi har använt etc. /Ellen --> 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -58,8 +49,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <collection>Elin Wägners samling</collection>
                         <idno>A 48a, seriesignum E II, volym 1, Gate, Flory 166 originalbrev (1933-1939)</idno>
                         <idno type="URI">http://urn.kb.se/resolve?urn=urn:nbn:se:alvin:portal:record-114992</idno>
-                        <!-- Här skulle vi kunna lägga in fler hänvisningar, exakt var man hittar just detta vykort/brev
-                        i arkivet, vykortets nummer i samlingen etc. /Ellen-->
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -72,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <p>Maskinskrivet brev skickat från Elin Wägner till Flory Gate 1938-03-25. Fastklistrat på
                             brevet medföljer ett fotografi föreställande Elin Wägner. Av brevets innehåll framkommer
                             det att fotografen är <persName ref="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A45545&amp;dswid=7021">
-                                Harald Giovanni "Vanni" Wägner</persName>. Brevet avslutas med en handskriven signatur av Elin Wägner.</p>
+                            Harald Giovanni "Vanni" Wägner</persName>. Brevet avslutas med en handskriven signatur av Elin Wägner.</p>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
@@ -80,14 +69,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <dimensions scope="all" type="leaf" unit="mm">
                                         <height>286</height>
                                         <width>225</width>
-                                        <!-- Var osäker på vad jag skulle lägga in för mått här - vad är höjden
-                                    och bredden på ett vykort osv. Men måtten är 150 mm x 105 mm. /Ellen-->
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <p>Texten är maskinhandskriven och signerad av Elin Wägner.</p>
+                            <p>Texten är maskinskriven och signerad av Elin Wägner.</p>
                         </handDesc>
                     </physDesc>
                 </msDesc>
@@ -96,8 +83,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Universitetsbibliotek.</bibl> 
             </sourceDesc> 
         </fileDesc>
-        <!-- Nedan lade jag till keywords för att beskiva innehållet i vykortet. Kan utökas allt eftersom om vi hittar fler
-            förslag. Här valde jag att använda 2 olika schemes: kvinnsams ämnesordsregister och SAO. /Moa 23/4 -->
         <profileDesc>
             <textClass>
                 <keywords scheme="https://id.kb.se/term/sao">
@@ -114,7 +99,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </keywords>
              </textClass>
         </profileDesc>
-        
         <encodingDesc>
             <projectDesc> 
                 <p>Materialet har fotograferats, transkriberats, TEI-kodats och tillgängliggjorts digitalt som en del 
@@ -132,10 +116,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Samtliga brev har ett handskrivet nummer som motsvarar dess nummer i KvinnSams arkiv. Detta nummer har 
                     i projektet kodats som en "archival annotation" för att markera att det har adderats till källmaterialet i
                     efterhand i syfte att underlätta sortering och arkivering.</p>
-                    <!-- Är inte helt säker på om det här stämmer - tänker framför allt på hennes handskrivna
-                       "jag" som ju kanske inte egentligen ser ut som bokstäverna j-a-g. Har vi ändrat stavningen där
-                       eller är det bara "slarvig handstil"? /Ellen
-                       Finns element inom detta element att använda om man vill beskriva korrigeringar man har gjort. -->
             </editorialDecl>
             <samplingDecl>
                 <p>Projektets urval bestod av två vykort och två brev skrivna av Elin Wägner till Flory Gate. Materialet 
@@ -143,9 +123,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     flera aspekter av Elin Wägner - hennes liv och gärning, hennes politiska engagemang och hennes 
                     mångsidiga relation till Flory Gate.</p>
             </samplingDecl>
-            <!-- Fler element kan användas inom detta element. Det finns element som rör annotering/taggningar av 
-                text, referenser, klassifikation, geografiska koordinater, mätenheter, schema-specifikationer och 
-                schema-referenser. -->
         </encodingDesc>
     </teiHeader>
     <facsimile>
@@ -156,7 +133,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Ett fotografi av ett brevs första sida med ett meddelande skrivet av Elin Wägner.
                 </figDesc>
                 <graphic xml:id="brev1938_008a_full" url="collection/img/ew_till_fg_1938_008a.jpg"/>
-                <!--  <graphic xml:id="brev1938_008a_thumb" url=""/> -->
             </figure>
         </surface>
         <surface xml:id="brev1938_008b">
@@ -166,14 +142,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Ett fotografi av ett ett brevs andra sida med ett meddelande skrivet av Elin Wägner samt ett fastklistrat fotografi.
                 </figDesc>
                 <graphic xml:id="brev1938_029b_full" url="collection/img/ew_till_fg_1938_008b.jpg"/>
-                <!-- <graphic xml:id="brev1938_008b_thumb" url=""/> -->
             </figure>
         </surface>
     </facsimile>
-  
     <text type="letter">
         <body>
-            <pb n="1"/>
+            <pb n="1" facs="#brev1938_008a"/>
             
             <div type="archivalAnnotation">
                 <fw type="handwritten" place="top-right">8</fw>
@@ -230,7 +204,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     tar saker för givna inte minsta i fråga om religionen. Det är nog inte<lb/>
                     fastslaget att fruktans tid kom före förhoppningens och bönens, denna</p>
                 
-                <pb n="2"/>
+                <pb n="2" facs="#brev1938_008b"/>
                 
                 <p>Harrison liksom Briffault och även
                     Emilia tror jag menar att det<lb/>
@@ -281,13 +255,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </signed>
                 </closer>
                 
-                <!-- Här har jag beskivit bilden som är medskickad i brevet. Följde instruktionerna under "example graphic",
-                    då jag tror att det passar bäst in som element. Kommer korregeras med en korrekt länk till bilden
-                    när en sådan finns. Storlek i px kommer också korrigeras. /Moa-->   
                 <figure>
                     <head>Fotografi föreställande Elin Wägner</head>
                     <graphic height="45mm" width="61mm"
-                        url="http://www.tei-c.org/logos/TEI-600.jpg" mimeType="image/png"/>
+                        url="collection/img/ew_till_fg_1938_008c.jpg" mimeType="image/jpg"/>
                     <figDesc>Ett svartvitt fotografi föreställande Elin Wägner sittandes i en soffa. På sida 2 i brevet
                         anges <persName ref="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A45545&amp;dswid=7021">Harald Giovanni
                             "Vanni" Wägner</persName> vara fotografen. </figDesc>
