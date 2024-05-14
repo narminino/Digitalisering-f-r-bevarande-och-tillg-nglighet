@@ -159,7 +159,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <fw type="handwritten" place="top-right">14</fw>
             </div>
             
-            <div type="preprinted">
+            <div type="stamp">
                 <p><stamp>Italienskt frimärke.</stamp></p>
                 <p><stamp>Italiensk poststämpel.</stamp></p>
                 <p><stamp>Italiensk poststämpel.</stamp></p>
