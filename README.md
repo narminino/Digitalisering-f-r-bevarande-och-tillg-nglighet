@@ -14,7 +14,7 @@ skrivna av Elin Wägner till Flory Gate.
 Materialet har fotograferats, transkriberats, TEI-kodats och tillgängliggjorts av 
 Narmin Abdullayeva, Moa Benjaminsson Randén, Ellen Bågmark och Emmy Loft.
 
-Projektets slutprodukt är en [hemsida som kan ses här.](https://narminino.github.io/Digitalisering-for-bevarande-och-tillganglighet/index.html).
+Projektets slutprodukt är en [hemsida som kan ses här.](https://narminino.github.io/Digitalisering-for-bevarande-och-tillganglighet/index.html)
 
 # Projektöversikt
 Projektet består av följande filer:
