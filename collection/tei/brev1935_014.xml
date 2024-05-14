@@ -9,7 +9,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Transkription av brev från 
+                <title>Transkription av vykort från 
                     <persName ref="https://libris.kb.se/0xbdgmxj0thr95n">Elin Wägner</persName> och
                     <persName ref="https://libris.kb.se/fcrtv7sz1xq05v1#it">Amelie Posse-Brazdova</persName> och
                     <persName>En okänd författare</persName> till 
