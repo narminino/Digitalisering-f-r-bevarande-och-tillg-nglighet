@@ -94,7 +94,7 @@ footer {
 }
 
 .extraMargin {
-    margin-top: 39px;
+    margin-top: 39.5px;
 }
 
 .transcriptionCmt {
@@ -107,5 +107,18 @@ footer {
 }
 
 .transcriptionStmt {
-    text-align: center;
+    text-align: center; 
+}
+
+.imgInstruction {
+    text-align: left;
+    font-style: italic;
+    color: Gray;
+    font-size: 90%;
+    padding-left: 1vw;
+}
+
+.imgText {
+    text-align: left;
+    padding-top: 1vw;
 }
