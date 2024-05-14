@@ -154,7 +154,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                 <p>Tack för brev och fotos.</p><lb/>
                 
-                <p>Jag längtar till Sandö härifrån då vi nu lever<lb/>
+                <p>Jag längtar till Sandö <add place="interlinear">härifrån</add> då vi nu lever<lb/>
                 i en vådlig hets med befolknings-<lb/>
                 kris och den här nya fredsrörelsen <lb/>
                 som tar tid och fart.<lb/></p>
