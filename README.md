@@ -19,7 +19,7 @@ Projektets slutprodukt är en hemsida som kan ses här.
 # Projektöversikt
 Projektet består av följande filer:
 
-En txt-fil med information om Creative Commomns-licensen
+En txt-fil med information om Creative Commons-licensen
 
 En README-fil
 
