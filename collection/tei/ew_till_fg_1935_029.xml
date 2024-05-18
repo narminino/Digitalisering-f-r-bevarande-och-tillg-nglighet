@@ -115,28 +115,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </encodingDesc>
     </teiHeader>
     <facsimile>
-        <surface xml:id="brev1935_029a">
+        <surface xml:id="ew_till_fg_1935_029a">
             <figure>
                 <label>Brevets första sida.</label>
                 <figDesc>
                     Ett fotografi av ett brevs första sida med ett meddelande skrivet av Elin Wägner.
                 </figDesc>
-                <graphic xml:id="brev1935_029a_full" url="collection/img/ew_till_fg_1935_029a.jpg"/>
+                <graphic url="collection/img/ew_till_fg_1935_029a.jpg" mimeType="image/jpg"/>
             </figure>
         </surface>
-        <surface xml:id="brev1935_029b">
+        <surface xml:id="ew_till_fg_1935_029b">
             <figure>
                 <label>Brevets andra sida.</label>
                 <figDesc>
                     Ett fotografi av ett ett brevs andra sida med ett meddelande skrivet av Elin Wägner.
                 </figDesc>
-                <graphic xml:id="brev1935_029b_full" url="collection/img/ew_till_fg_1935_029b.jpg"/>
+                <graphic url="collection/img/ew_till_fg_1935_029b.jpg" mimeType="image/jpg"/>
             </figure>
         </surface>
     </facsimile>
     <text type="letter">
         <body>
-            <pb n="1" facs="#brev1935_029a"/>
+            <pb n="1" facs="#ew_till_fg_1935_029a"/>
             
                 <div type="archivalAnnotation">
                     <fw type="handwritten" place="top-right">29</fw>
@@ -176,7 +176,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 högmodernt nu och allt gammalt <lb/>
                 säljes dyrt så han tyckte det var <lb/>
                     
-                <pb n="2" facs="#brev1935_029b"/> 
+                <pb n="2" facs="#ew_till_fg_1935_029b"/> 
                 
                 bra ni skulle börja.<lb/>
                 Ville ha gammallila också!<lb/>

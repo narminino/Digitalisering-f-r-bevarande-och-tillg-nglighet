@@ -126,28 +126,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </encodingDesc>
     </teiHeader>
     <facsimile>
-        <surface xml:id="brev1938_008a">
+        <surface xml:id="ew_till_fg_1938_008a">
             <figure>
                 <label>Brevets första sida.</label>
                 <figDesc>
                     Ett fotografi av ett brevs första sida med ett meddelande skrivet av Elin Wägner.
                 </figDesc>
-                <graphic xml:id="brev1938_008a_full" url="collection/img/ew_till_fg_1938_008a.jpg"/>
+                <graphic url="collection/img/ew_till_fg_1938_008a.jpg" mimeType="image/jpg"/>
             </figure>
         </surface>
-        <surface xml:id="brev1938_008b">
+        <surface xml:id="ew_till_fg_1938_008b">
             <figure>
                 <label>Brevets andra sida.</label>
                 <figDesc>
                     Ett fotografi av ett ett brevs andra sida med ett meddelande skrivet av Elin Wägner samt ett fastklistrat fotografi.
                 </figDesc>
-                <graphic xml:id="brev1938_029b_full" url="collection/img/ew_till_fg_1938_008b.jpg"/>
+                <graphic url="collection/img/ew_till_fg_1938_008b.jpg" mimeType="image/jpg"/>
+            </figure>
+        </surface>
+        <surface xml:id="ew_till_fg_1938_008c">
+            <figure>
+                <label>En bifogad bild på brevets andra sida.</label>
+                <figDesc>
+                    Ett fotografi av en fastklistrad bild föreställande Elin Wägner på brevets andra sida.
+                </figDesc>
+                <graphic url="collection/img/ew_till_fg_1938_008c.jpg" mimeType="image/jpg"/>
             </figure>
         </surface>
     </facsimile>
     <text type="letter">
         <body>
-            <pb n="1" facs="#brev1938_008a"/>
+            <pb n="1" facs="#ew_till_fg_1938_008a"/>
             
             <div type="archivalAnnotation">
                 <fw type="handwritten" place="top-right">8</fw>
@@ -204,7 +213,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     tar saker för givna inte minsta i fråga om religionen. Det är nog inte<lb/>
                     fastslaget att fruktans tid kom före förhoppningens och bönens, denna</p>
                 
-                <pb n="2" facs="#brev1938_008b"/>
+                <pb n="2" facs="#ew_till_fg_1938_008b"/>
                 
                 <p>Harrison liksom Briffault och även
                     Emilia tror jag menar att det<lb/>

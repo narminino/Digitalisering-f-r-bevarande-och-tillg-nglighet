@@ -131,29 +131,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </encodingDesc>       
     </teiHeader>
     <facsimile>
-        <surface xml:id="brev1935_014a">
+        <surface xml:id="ew_till_fg_1935_014a">
             <figure>
                 <label>Brevets första sida.</label>
                 <figDesc>
                     Ett fotografi av ett brevs första sida med ett meddelande skrivet av Elin Wägner, Amelie Posse-Brazdova och en okänd författare.
                 </figDesc>
-                <graphic xml:id="brev1935_014a_full" url="collection/img/ew_till_fg_1935_014a.jpg"/>
+                <graphic url="collection/img/ew_till_fg_1935_014a.jpg" mimeType="image/jpg"/>
             </figure>
         </surface>
-        <surface xml:id="brev1935_014b">
+        <surface xml:id="ew_till_fg_1935_014b">
             <figure>
                 <label>Brevets andra sida.</label>
                 <figDesc>
                     Ett fotografi av tre kvinnor i en hamn. Från vänster till höger: Elin Wägner, en okänd kvinna
                     (eventuellt Marika Stiernstedt eller Bettan Thiel), Amelie Posse-Brazdova.
                 </figDesc>
-                <graphic xml:id="brev1935_014b_full" url="collection/img/ew_till_fg_1935_014b.jpg"/>
+                <graphic url="collection/img/ew_till_fg_1935_014b.jpg" mimeType="image/jpg"/>
             </figure>
         </surface>
     </facsimile>    
     <text type="letter">
         <body> 
-            <pb n="1" facs="#brev1935_014a"/>
+            <pb n="1" facs="#ew_till_fg_1935_014a"/>
             
             <div type="archivalAnnotation">
                 <fw type="handwritten" place="top-right">14</fw>
@@ -214,7 +214,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <gap reason="illegible"/>
                 </p>
                 
-            <pb n="2" facs="#brev1935_014b"/>
+                <pb n="2" facs="#ew_till_fg_1935_014b"/>
                 <figure>
                     <head>Fotografi föreställande tre kvinnor.</head>
                     <graphic height="90mm" width="140mm"
