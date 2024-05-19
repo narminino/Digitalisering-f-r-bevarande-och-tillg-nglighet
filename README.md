@@ -37,6 +37,8 @@ Sex html-filer som utgör projektets hemsida
 
 En css-fil som påverkar html-filernas presentation och funktioner
 
+En pdf-fil som innehåller en projektrapport
+
 # Credits
 
 Projektets tillgängliggörande har utgått ifrån [Wout Dillens mallar](https://github.com/SSLIS/DCHM-template/tree/main) som har
